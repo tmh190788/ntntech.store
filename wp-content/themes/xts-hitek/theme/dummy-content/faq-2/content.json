@@ -1,0 +1,916 @@
+{
+	"page": {
+		"version": "0.4",
+		"title": "Basic FAQs #2",
+		"type": "wp-page",
+		"content": [
+			{
+				"id": "3118232e",
+				"settings": {
+					"xts_section_stretch": "stretch",
+					"background_background": "classic",
+					"background_color": "#33333308",
+					"margin": {
+						"unit": "px",
+						"top": "-30",
+						"right": "0",
+						"bottom": "80",
+						"left": "0",
+						"isLinked": false
+					},
+					"padding": {
+						"unit": "px",
+						"top": "50",
+						"right": "15",
+						"bottom": "50",
+						"left": "15",
+						"isLinked": false
+					},
+					"margin_tablet": {
+						"unit": "px",
+						"top": "-30",
+						"right": "0",
+						"bottom": "60",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "-30",
+						"right": "0",
+						"bottom": "40",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "5d51c053",
+						"settings": {
+							"_column_size": 100,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "3342dd45",
+								"settings": {
+									"subtitle": "",
+									"title": "Questions & Answers",
+									"description": "<p>We will answer any questions you may have about our online sales.<\/p>",
+									"text_align": "center",
+									"width": {
+										"unit": "px",
+										"size": "",
+										"sizes": []
+									},
+									"title_text_size": "xxl",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "6a0315c",
+								"settings": {
+									"button_text": "Contact us",
+									"button_align": "center",
+									"button_style": "link",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_button",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "31a5578f",
+				"settings": {
+					"margin": {
+						"unit": "px",
+						"top": "50",
+						"right": "0",
+						"bottom": "0",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_tablet": {
+						"unit": "px",
+						"top": "30",
+						"right": "0",
+						"bottom": "0",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "10",
+						"right": "0",
+						"bottom": "0",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "79fa768c",
+						"settings": {
+							"_column_size": 100,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "45560a1",
+								"settings": {
+									"subtitle": "",
+									"title": "Shopping Information",
+									"description": "",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "5f302d86",
+								"settings": {
+									"structure": "20",
+									"gap": "wide"
+								},
+								"elements": [
+									{
+										"id": "38940f25",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "5ca0d9c3",
+												"settings": {
+													"subtitle": "",
+													"title": "Delivery charges for orders from the online shop?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "5802c96b",
+												"settings": {
+													"editor": "<p>Design comps, layouts, wireframes\u2014will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text.<\/p><p>You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "13b0b60f",
+												"settings": {
+													"subtitle": "",
+													"title": "How long will delivery take?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "68962b22",
+												"settings": {
+													"editor": "<p>Ad vivamus nullam scelerisque a neque suspendisse consectetur fringilla a suspendisse proin senectus lobortis lacinia sem parturient dapibus ad aliquet maecenas dis neque.<\/p><p>Torquent posuere vel id sagittis urna placerat ridiculus odio vestibulum donec tristique a nisl eros conubia condimentum nunc quisque nibh adipiscing habitasse parturient suspendisse proin a pharetra commodo leo tincidunt lobortis lacinia sem parturient dapibus.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "72500f39",
+												"settings": {
+													"subtitle": "",
+													"title": "What exactly happens after ordering?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "725b8461",
+												"settings": {
+													"editor": "<p>Design comps, layouts, wireframes\u2014will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text.<\/p><p>You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved.<\/p>",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									},
+									{
+										"id": "413fcbc",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "789ef474",
+												"settings": {
+													"subtitle": "",
+													"title": "Where can I view my sales receipt?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "26ac7d25",
+												"settings": {
+													"editor": "<p>You made all the required mock ups for commissioned layout, got all the approvals, built a tested code base or had them built, you decided on a content management system, got a license for it or adapted open source software.<\/p><p>Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always the way you like it, not always in the preferred order. Even if your less into design and more into content strategy you may find some redeeming value with, wait for it, dummy copy.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "43a0b8e5",
+												"settings": {
+													"subtitle": "",
+													"title": "How do I add a gift receipt to an order?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "245ecd71",
+												"settings": {
+													"editor": "<p>Design comps, layouts, wireframes\u2014will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text.<\/p><p>You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "1c75c289",
+												"settings": {
+													"subtitle": "",
+													"title": "How long do I have to return an order?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "1b45f22f",
+												"settings": {
+													"editor": "<p>Ad vivamus nullam scelerisque a neque suspendisse consectetur fringilla a suspendisse proin senectus lobortis lacinia sem parturient dapibus ad aliquet maecenas dis neque.<\/p><p>Torquent posuere vel id sagittis urna placerat ridiculus odio vestibulum donec tristique a nisl eros conubia condimentum nunc quisque nibh adipiscing habitasse parturient suspendisse proin a pharetra commodo leo tincidunt lobortis lacinia sem parturient dapibus.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									}
+								],
+								"isInner": true,
+								"elType": "section"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "86ca18c",
+				"settings": [],
+				"elements": [
+					{
+						"id": "18fda10c",
+						"settings": {
+							"_column_size": 100,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "658e8eea",
+								"settings": {
+									"subtitle": "",
+									"title": "Payment Information",
+									"description": "",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "241a920",
+								"settings": {
+									"structure": "20",
+									"gap": "wide"
+								},
+								"elements": [
+									{
+										"id": "16b113bc",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "58179606",
+												"settings": {
+													"subtitle": "",
+													"title": "How is the recipient reimbursed?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "7325dcb1",
+												"settings": {
+													"editor": "<p>Ad vivamus nullam scelerisque a neque suspendisse consectetur fringilla a suspendisse proin senectus lobortis lacinia sem parturient dapibus ad aliquet maecenas dis neque.<\/p><p>Torquent posuere vel id sagittis urna placerat ridiculus odio vestibulum donec tristique a nisl eros conubia condimentum nunc quisque nibh adipiscing habitasse parturient suspendisse proin a pharetra commodo leo tincidunt lobortis lacinia sem parturient dapibus.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "6b0716c8",
+												"settings": {
+													"subtitle": "",
+													"title": "Can I be reimbursed through the original payment method?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "3f899370",
+												"settings": {
+													"editor": "<p>Design comps, layouts, wireframes\u2014will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text.<\/p><p>You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "78c0448d",
+												"settings": {
+													"subtitle": "",
+													"title": "Can the country receiving the shipment be different than the country?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "1c99548d",
+												"settings": {
+													"editor": "<p>Ad vivamus nullam scelerisque a neque suspendisse consectetur fringilla a suspendisse proin senectus lobortis lacinia sem parturient dapibus ad aliquet maecenas dis neque.<\/p><p>Torquent posuere vel id sagittis urna placerat ridiculus odio vestibulum donec tristique a nisl eros conubia condimentum nunc quisque nibh adipiscing habitasse parturient suspendisse proin a pharetra commodo leo tincidunt lobortis lacinia sem parturient dapibus.<\/p>",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									},
+									{
+										"id": "10541011",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "fd58750",
+												"settings": {
+													"subtitle": "",
+													"title": "How can I return an item?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "1ae68f8b",
+												"settings": {
+													"editor": "<p>You made all the required mock ups for commissioned layout, got all the approvals, built a tested code base or had them built, you decided on a content management system, got a license for it or adapted open source software.<\/p><p>Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always the way you like it, not always in the preferred order. Even if your less into design and more into content strategy you may find some redeeming value with, wait for it, dummy copy.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "5cad1704",
+												"settings": {
+													"subtitle": "",
+													"title": "Will I receive the same product that I see in the picture?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "3656e1b1",
+												"settings": {
+													"editor": "<p>Design comps, layouts, wireframes\u2014will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text.<\/p><p>You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "1f1f77d8",
+												"settings": {
+													"subtitle": "",
+													"title": "Will you restock items indicated as \u201cout of stock?\u201d",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "205f18a8",
+												"settings": {
+													"editor": "<p>Design comps, layouts, wireframes\u2014will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text.<\/p><p>You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									}
+								],
+								"isInner": true,
+								"elType": "section"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "4bdd7bd7",
+				"settings": {
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "30",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_tablet": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "10",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "73385a5c",
+						"settings": {
+							"_column_size": 100,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "6bd9b6a4",
+								"settings": {
+									"subtitle": "",
+									"title": "Orders and Returns",
+									"description": "",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "249dd29a",
+								"settings": {
+									"structure": "20",
+									"gap": "wide"
+								},
+								"elements": [
+									{
+										"id": "622f7d67",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "77433baa",
+												"settings": {
+													"subtitle": "",
+													"title": "Delivery charges for orders from the online shop?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "3c699ed4",
+												"settings": {
+													"editor": "<p>Design comps, layouts, wireframes\u2014will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text.<\/p><p>You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "24982b5e",
+												"settings": {
+													"subtitle": "",
+													"title": "How long will delivery take?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "f36fb90",
+												"settings": {
+													"editor": "<p>Ad vivamus nullam scelerisque a neque suspendisse consectetur fringilla a suspendisse proin senectus lobortis lacinia sem parturient dapibus ad aliquet maecenas dis neque.<\/p><p>Torquent posuere vel id sagittis urna placerat ridiculus odio vestibulum donec tristique a nisl eros conubia condimentum nunc quisque nibh adipiscing habitasse parturient suspendisse proin a pharetra commodo leo tincidunt lobortis lacinia sem parturient dapibus.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "42947ece",
+												"settings": {
+													"subtitle": "",
+													"title": "What exactly happens after ordering?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "3bea19e6",
+												"settings": {
+													"editor": "<p>Design comps, layouts, wireframes\u2014will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text.<\/p><p>You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved.<\/p>",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									},
+									{
+										"id": "1773954e",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "6e96d229",
+												"settings": {
+													"subtitle": "",
+													"title": "How long does the delivery take and how much does it cost?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "290cb4dc",
+												"settings": {
+													"editor": "<p>You made all the required mock ups for commissioned layout, got all the approvals, built a tested code base or had them built, you decided on a content management system, got a license for it or adapted open source software.<\/p><p>Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always the way you like it, not always in the preferred order. Even if your less into design and more into content strategy you may find some redeeming value with, wait for it, dummy copy.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "f160d2a",
+												"settings": {
+													"subtitle": "",
+													"title": "Which browser is best to use the site?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "50703844",
+												"settings": {
+													"editor": "<p>Design comps, layouts, wireframes\u2014will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text.<\/p><p>You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved.<\/p>",
+													"scroll_y": -80,
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													}
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "31128fa2",
+												"settings": {
+													"subtitle": "",
+													"title": "How do I subscribe to the newsletter?",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "1199c6a4",
+												"settings": {
+													"editor": "<p>Ad vivamus nullam scelerisque a neque suspendisse consectetur fringilla a suspendisse proin senectus lobortis lacinia sem parturient dapibus ad aliquet maecenas dis neque.<\/p><p>Torquent posuere vel id sagittis urna placerat ridiculus odio vestibulum donec tristique a nisl eros conubia condimentum nunc quisque nibh adipiscing habitasse parturient suspendisse proin a pharetra commodo leo tincidunt lobortis lacinia sem parturient dapibus.<\/p>",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									}
+								],
+								"isInner": true,
+								"elType": "section"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			}
+		]
+	}
+}

@@ -1,0 +1,259 @@
+{
+	"page": {
+		"version": "0.4",
+		"title": "Basic FAQs #1",
+		"type": "wp-page",
+		"content": [
+			{
+				"id": "6a34d8a1",
+				"settings": {
+					"xts_section_stretch": "stretch",
+					"background_background": "classic",
+					"background_color": "#33333308",
+					"margin": {
+						"unit": "px",
+						"top": "-30",
+						"right": "0",
+						"bottom": "50",
+						"left": "0",
+						"isLinked": false
+					},
+					"padding": {
+						"unit": "px",
+						"top": "50",
+						"right": "15",
+						"bottom": "50",
+						"left": "15",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "5e9a2a1d",
+						"settings": {
+							"_column_size": 100,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "6e04d3cb",
+								"settings": {
+									"subtitle": "",
+									"title": "FAQs",
+									"description": "<p>We will answer any questions you may have about our online sales, rights or partnership service right here.<\/p>",
+									"text_align": "center",
+									"width": {
+										"unit": "px",
+										"size": 475,
+										"sizes": []
+									},
+									"title_text_size": "xxl",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "1b92554d",
+				"settings": {
+					"gap": "wider",
+					"structure": "20",
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "40",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_tablet": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "20",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "0",
+						"left": "0",
+						"isLinked": true
+					}
+				},
+				"elements": [
+					{
+						"id": "16f81ec7",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"border_border": "solid",
+							"border_width": {
+								"unit": "px",
+								"top": "0",
+								"right": "1",
+								"bottom": "0",
+								"left": "0",
+								"isLinked": false
+							},
+							"border_width_mobile": {
+								"unit": "px",
+								"top": "0",
+								"right": "0",
+								"bottom": "0",
+								"left": "0",
+								"isLinked": false
+							},
+							"border_color": "#77777733",
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "553b4deb",
+								"settings": {
+									"accordion_items": [
+										{
+											"item_title": " Which payments do you accept?",
+											"item_desc": "Chances are there wasn't collaboration, communication, and checkpoints, there wasn't a process agreed upon or specified with the granularity required. It's content strategy gone awry right from the start. Forswearing the use of Lorem Ipsum wouldn't have helped, won't help now. It's like saying you're a bad designer, use less bold text, don't use italics in every other paragraph. True enough, but that's not all that it takes to get things back on track.",
+											"_id": "370835f"
+										},
+										{
+											"item_title": "Do you provide additional customization services?",
+											"item_desc": "If that's what you think how bout the other way around? How can you evaluate content without design? No typography, no colors, no layout, no styles, all those things that convey the important signals that go beyond the mere textual, hierarchies of information, weight, emphasis, oblique stresses, priorities, all those subtle cues that also have visual and emotional appeal to the reader. Rigid proponents of content strategy may shun\u200b",
+											"_id": "758baa5"
+										},
+										{
+											"item_title": "Do you have an affiliate program?",
+											"item_desc": "Using dummy content or fake information in the Web design process can result in products with unrealistic assumptions and potentially serious design flaws. A seemingly elegant design can quickly begin to bloat with unexpected content or break under the weight of actual activity. Fake data can ensure a nice looking layout but it doesn\u2019t reflect what a living, breathing application must endure. Real data does.",
+											"_id": "aac6e99"
+										},
+										{
+											"item_title": "How to download the purchased theme(s)?",
+											"item_desc": "Chances are there wasn't collaboration, communication, and checkpoints, there wasn't a process agreed upon or specified with the granularity required. It's content strategy gone awry right from the start. Forswearing the use of Lorem Ipsum wouldn't have helped, won't help now. It's like saying you're a bad designer, use less bold text, don't use italics in every other paragraph. True enough, but that's not all that it takes to get things back on track.",
+											"_id": "826d14b"
+										},
+										{
+											"item_title": "Can I share my website access with your support staff?",
+											"item_desc": "If that's what you think how bout the other way around? How can you evaluate content without design? No typography, no colors, no layout, no styles, all those things that convey the important signals that go beyond the mere textual, hierarchies of information, weight, emphasis, oblique stresses, priorities, all those subtle cues that also have visual and emotional appeal to the reader. Rigid proponents of content strategy may shun\u200b",
+											"_id": "6470509"
+										}
+									],
+									"style": "bordered",
+									"title_padding": {
+										"unit": "px",
+										"top": "15",
+										"right": "0",
+										"bottom": "15",
+										"left": "0",
+										"isLinked": false
+									},
+									"description_padding": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "15",
+										"left": "0",
+										"isLinked": false
+									},
+									"icon_position": "right",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_accordion",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "2e16bfa3",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "355da665",
+								"settings": {
+									"accordion_items": [
+										{
+											"item_title": "Why should I have a registered account on your website?",
+											"item_desc": "Using dummy content or fake information in the Web design process can result in products with unrealistic assumptions and potentially serious design flaws. A seemingly elegant design can quickly begin to bloat with unexpected content or break under the weight of actual activity. Fake data can ensure a nice looking layout but it doesn\u2019t reflect what a living, breathing application must endure. Real data does.",
+											"_id": "6470509"
+										},
+										{
+											"item_title": "How long will I receive themes updates and support?",
+											"item_desc": "Chances are there wasn't collaboration, communication, and checkpoints, there wasn't a process agreed upon or specified with the granularity required. It's content strategy gone awry right from the start. Forswearing the use of Lorem Ipsum wouldn't have helped, won't help now. It's like saying you're a bad designer, use less bold text, don't use italics in every other paragraph. True enough, but that's not all that it takes to get things back on track.",
+											"_id": "aac6e99"
+										},
+										{
+											"item_title": "Do you have technical requirements for your themes?",
+											"item_desc": "If that's what you think how bout the other way around? How can you evaluate content without design? No typography, no colors, no layout, no styles, all those things that convey the important signals that go beyond the mere textual, hierarchies of information, weight, emphasis, oblique stresses, priorities, all those subtle cues that also have visual and emotional appeal to the reader. Rigid proponents of content strategy may shun",
+											"_id": "370835f"
+										},
+										{
+											"item_title": "How to install the theme on my website?",
+											"item_desc": "Using dummy content or fake information in the Web design process can result in products with unrealistic assumptions and potentially serious design flaws. A seemingly elegant design can quickly begin to bloat with unexpected content or break under the weight of actual activity. Fake data can ensure a nice looking layout but it doesn\u2019t reflect what a living, breathing application must endure. Real data does.",
+											"_id": "826d14b"
+										},
+										{
+											"item_title": "Do you charge automatically for renewal?",
+											"item_desc": "Chances are there wasn't collaboration, communication, and checkpoints, there wasn't a process agreed upon or specified with the granularity required. It's content strategy gone awry right from the start. Forswearing the use of Lorem Ipsum wouldn't have helped, won't help now. It's like saying you're a bad designer, use less bold text, don't use italics in every other paragraph. True enough, but that's not all that it takes to get things back on track.",
+											"_id": "758baa5"
+										}
+									],
+									"style": "bordered",
+									"title_padding": {
+										"unit": "px",
+										"top": "15",
+										"right": "0",
+										"bottom": "15",
+										"left": "0",
+										"isLinked": false
+									},
+									"description_padding": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "15",
+										"left": "0",
+										"isLinked": false
+									},
+									"icon_position": "right",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_accordion",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			}
+		]
+	}
+}

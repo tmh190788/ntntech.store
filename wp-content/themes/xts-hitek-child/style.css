@@ -1,0 +1,45 @@
+/*
+ Theme Name:   Hitek Child
+ Description:  Hitek Child Theme
+ Author:       XTemos
+ Author URI:   https://xtemos.com
+ Template:     xts-hitek
+ Version:      1.0.0
+ Text Domain:  xts-theme
+*/
+.stocklist-product + .xts-product-content-head + .xts-product-content-footer {
+  display: none;
+}
+
+.search-stocklist {
+  margin-bottom: 20px;
+}
+
+.search-stocklist > div {
+  padding-top: 5px;
+}
+
+.stocklist-buttons {
+  margin-top: 20px;
+}
+
+.stocklist-btn {
+  margin: 5px 0;
+  padding: 10px 10px;
+  border: 1px solid #000;
+  display: block;
+}
+
+.no-stocklist .stocklist-btn {
+  display: inline-block;
+}
+
+.with-stocklist .product-brand {
+  display: none;
+}
+
+@media screen and (min-width: 384px) {
+  .stocklist-buttons > div:nth-child(2) {
+    padding: 0;
+  }
+}

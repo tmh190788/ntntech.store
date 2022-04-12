@@ -1,0 +1,792 @@
+{
+	"page": {
+		"version": "0.4",
+		"title": "Basic Contact Us #5",
+		"type": "wp-page",
+		"content": [
+			{
+				"id": "43b88692",
+				"settings": {
+					"structure": "21",
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "80",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_tablet": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "60",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "40",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "42701360",
+						"settings": {
+							"_column_size": 33,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "78f3b78",
+								"settings": {
+									"subtitle": "Clothes that you like",
+									"title": "Contact us",
+									"description": "",
+									"title_text_size": "xxl",
+									"_margin": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "20",
+										"left": "0",
+										"isLinked": false
+									},
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "13658c4c",
+								"settings": {
+									"subtitle": "",
+									"title": "Denmark",
+									"description": "",
+									"title_text_size": "m",
+									"scroll_y": -80,
+									"_margin": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "10",
+										"left": "0",
+										"isLinked": false
+									},
+									"_element_width": "auto"
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "816933d",
+								"settings": {
+									"structure": "20"
+								},
+								"elements": [
+									{
+										"id": "188662a3",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": 25,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "335ad6ca",
+												"settings": {
+													"subtitle": "",
+													"title": "Address:",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									},
+									{
+										"id": "7d67b82",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": 75,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "2c054ad1",
+												"settings": {
+													"editor": "<p>Volden 28 8000, Aarhus<\/p>",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									}
+								],
+								"isInner": true,
+								"elType": "section"
+							},
+							{
+								"id": "172b194a",
+								"settings": {
+									"structure": "20"
+								},
+								"elements": [
+									{
+										"id": "ac21b01",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": 25,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "6afa58d2",
+												"settings": {
+													"subtitle": "",
+													"title": "Phone:",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									},
+									{
+										"id": "a382fe7",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": 75,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "90f197d",
+												"settings": {
+													"editor": "<p>+39 06 67 85 55<\/p>",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									}
+								],
+								"isInner": true,
+								"elType": "section"
+							},
+							{
+								"id": "28db1a76",
+								"settings": {
+									"structure": "20",
+									"margin": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "40",
+										"left": "0",
+										"isLinked": false
+									}
+								},
+								"elements": [
+									{
+										"id": "5d41b2a8",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": 25,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "23a7ebe6",
+												"settings": {
+													"subtitle": "",
+													"title": "Email:",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									},
+									{
+										"id": "1d5a34e8",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": 75,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "526ece50",
+												"settings": {
+													"editor": "<p>xtemos@mail.com<\/p>",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									}
+								],
+								"isInner": true,
+								"elType": "section"
+							},
+							{
+								"id": "5aea4694",
+								"settings": {
+									"subtitle": "",
+									"title": "New York",
+									"description": "",
+									"title_text_size": "m",
+									"scroll_y": -80,
+									"_margin": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "10",
+										"left": "0",
+										"isLinked": false
+									},
+									"_element_width": "auto"
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "3645d883",
+								"settings": {
+									"structure": "20"
+								},
+								"elements": [
+									{
+										"id": "601b5c5e",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": 25,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "7aa88722",
+												"settings": {
+													"subtitle": "",
+													"title": "Address:",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									},
+									{
+										"id": "221d6f14",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": 75,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "7af6f9a6",
+												"settings": {
+													"editor": "<p>195 Mulberry St, New York<\/p>",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									}
+								],
+								"isInner": true,
+								"elType": "section"
+							},
+							{
+								"id": "3368206d",
+								"settings": {
+									"structure": "20"
+								},
+								"elements": [
+									{
+										"id": "32599b2c",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": 25,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "21b1b5e2",
+												"settings": {
+													"subtitle": "",
+													"title": "Phone:",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									},
+									{
+										"id": "4a4ad3eb",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": 75,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "aa86a95",
+												"settings": {
+													"editor": "<p>+1 212 334 0212<\/p>",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									}
+								],
+								"isInner": true,
+								"elType": "section"
+							},
+							{
+								"id": "65056456",
+								"settings": {
+									"structure": "20"
+								},
+								"elements": [
+									{
+										"id": "2b079bb5",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": 25,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "4e8558c8",
+												"settings": {
+													"subtitle": "",
+													"title": "Email:",
+													"description": "",
+													"title_text_size": "s",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									},
+									{
+										"id": "3539262e",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": 75,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "1b8c186f",
+												"settings": {
+													"editor": "<p>xtemos@mail.com<\/p>",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									}
+								],
+								"isInner": true,
+								"elType": "section"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "24523574",
+						"settings": {
+							"_column_size": 66,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "b7e6784",
+								"settings": {
+									"latitude": 45.899999999999999,
+									"longitude": 10.9,
+									"map_height": {
+										"unit": "px",
+										"size": 560,
+										"sizes": []
+									},
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_google_map",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "4089f9fd",
+				"settings": {
+					"content_position": "middle",
+					"structure": "31",
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "50",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_tablet": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "30",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "10",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "57fe72d3",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"_inline_size_tablet": 50,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "d881303",
+								"settings": {
+									"icon_type": "image",
+									"text_icon": "1.",
+									"image": {
+										"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/08\/pages-contact-us-van.svg",
+										"id": 4603
+									},
+									"image_size": "custom",
+									"image_custom_dimension": {
+										"width": "60",
+										"height": "60"
+									},
+									"subtitle": "",
+									"title": "Free worldwide shipping",
+									"description": "Using dummy content or fake in the Web design process.",
+									"button_text": "",
+									"button_link": {
+										"url": "",
+										"is_external": false,
+										"nofollow": false,
+										"custom_attributes": ""
+									},
+									"content_align": "left",
+									"_margin": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "20",
+										"left": "0",
+										"isLinked": false
+									},
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_infobox",
+								"elType": "widget"
+							},
+							{
+								"id": "5e0f5dd5",
+								"settings": {
+									"icon_type": "image",
+									"text_icon": "1.",
+									"image": {
+										"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/08\/pages-contact-us-smartphone.svg",
+										"id": 4602
+									},
+									"image_size": "custom",
+									"image_custom_dimension": {
+										"width": "60",
+										"height": "60"
+									},
+									"subtitle": "",
+									"title": "Protect shoping",
+									"description": "Looking layout but it doesn\u2019t reflect what a living, breathing.",
+									"button_text": "",
+									"button_link": {
+										"url": "",
+										"is_external": false,
+										"nofollow": false,
+										"custom_attributes": ""
+									},
+									"content_align": "left",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_infobox",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "1f68eb6f",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"_inline_size_tablet": 50,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "275c5366",
+								"settings": {
+									"icon_type": "image",
+									"text_icon": "1.",
+									"image": {
+										"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/08\/pages-contact-us-map-pointer.svg",
+										"id": 4609
+									},
+									"image_size": "custom",
+									"image_custom_dimension": {
+										"width": "60",
+										"height": "60"
+									},
+									"subtitle": "",
+									"title": "Safe payment",
+									"description": "A seemingly elegant design can unexpected quickly begin.",
+									"button_text": "",
+									"button_link": {
+										"url": "",
+										"is_external": false,
+										"nofollow": false,
+										"custom_attributes": ""
+									},
+									"content_align": "left",
+									"_margin": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "20",
+										"left": "0",
+										"isLinked": false
+									},
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_infobox",
+								"elType": "widget"
+							},
+							{
+								"id": "6abf96d4",
+								"settings": {
+									"icon_type": "image",
+									"text_icon": "1.",
+									"image": {
+										"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/08\/pages-contact-us-comment.svg",
+										"id": 4608
+									},
+									"image_size": "custom",
+									"image_custom_dimension": {
+										"width": "60",
+										"height": "60"
+									},
+									"subtitle": "",
+									"title": "24 support",
+									"description": "product pages for web shops, or user profiles in social networks.",
+									"button_text": "",
+									"button_link": {
+										"url": "",
+										"is_external": false,
+										"nofollow": false,
+										"custom_attributes": ""
+									},
+									"content_align": "left",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_infobox",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "2739416e",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"_inline_size_tablet": 100,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "ebf8712",
+								"settings": {
+									"subtitle": "Clothes that you like",
+									"title": "Ask you questions",
+									"description": "<p>At worst the discussion is at least working towards the final goal of your site where questions about.<\/p>",
+									"width": {
+										"unit": "px",
+										"size": 393,
+										"sizes": []
+									},
+									"width_tablet": {
+										"unit": "px",
+										"size": "",
+										"sizes": []
+									},
+									"title_text_size": "xl",
+									"_margin_tablet": {
+										"unit": "px",
+										"top": "30",
+										"right": "0",
+										"bottom": "0",
+										"left": "0",
+										"isLinked": false
+									},
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "7697e75e",
+								"settings": {
+									"form_id": "1982",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_contact_form_7",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			}
+		]
+	}
+}

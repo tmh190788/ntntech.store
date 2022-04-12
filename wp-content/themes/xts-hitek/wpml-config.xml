@@ -1,0 +1,73 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">xts-html-block</custom-type>
+        <custom-type translate="1">xts-portfolio</custom-type>
+        <custom-type translate="1">xts-slide</custom-type>
+        <custom-type translate="1">xts-template</custom-type>
+        <custom-type translate="1">xts-size-guide</custom-type>
+        <custom-type translate="0">xts-sidebar</custom-type>
+    </custom-types>
+
+    <taxonomies>
+        <taxonomy translate="1">xts-portfolio-cat</taxonomy>
+        <taxonomy translate="1">xts-html-block-cat</taxonomy>
+        <taxonomy translate="1">xts_slider</taxonomy>
+    </taxonomies>
+
+    <admin-texts>
+        <key name="xts_main_header"/>
+        <key name="xts-hitek-options">
+            <key name="cookies_title"/>
+            <key name="cookies_content"/>
+            <key name="copyrights_left_text"/>
+            <key name="copyrights_right_text"/>
+            <key name="blog_single_header"/>
+            <key name="portfolio_single_header"/>
+            <key name="single_product_header"/>
+            <key name="promo_popup_content"/>
+            <key name="footer_html_block"/>
+            <key name="prefooter_html_block"/>
+            <key name="shop_filters_area_html_block"/>
+            <key name="single_product_additional_tab_html_block"/>
+            <key name="single_product_custom_additional_tab_title"/>
+            <key name="single_product_custom_additional_tab_text"/>
+            <key name="single_product_before_add_to_cart_html_block"/>
+            <key name="single_product_before_add_to_cart_text"/>
+            <key name="single_product_after_add_to_cart_html_block"/>
+            <key name="single_product_after_add_to_cart_text"/>
+            <key name="empty_cart_text"/>
+            <key name="compare_empty_text"/>
+            <key name="wishlist_empty_text"/>
+            <key name="header_banner_text"/>
+            <key name="header_banner_html_block"/>
+            <key name="reg_text"/>
+            <key name="login_text"/>
+            <key name="empty_cart_text"/>
+            <key name="prefooter_area"/>
+            <key name="content_before_add_to_cart"/>
+            <key name="content_after_add_to_cart"/>
+            <key name="additional_tab_title"/>
+            <key name="additional_tab_text"/>
+            <key name="single_product_header"/>
+            <key name="empty_compare_text"/>
+            <key name="reg_title"/>
+            <key name="login_title"/>
+            <key name="header_banner_shortcode"/>
+            <key name="grid_swatches_attribute"/>
+            <key name="wishlist_empty_text"/>
+            <key name="thank_you_page_extra_content"/>
+        </key>
+    </admin-texts>
+
+    <custom-fields>
+        <custom-field action="translate" label="Additional Tab Title">_xts_single_product_custom_additional_tab_title</custom-field>
+        <custom-field action="translate" label="Additional Tab Text">_xts_single_product_custom_additional_tab_text</custom-field>
+        <custom-field action="translate" label="Post Quote">_xts_post_quote</custom-field>
+        <custom-field action="translate" label="Post Quote Cite">_xts_post_quote_cite</custom-field>
+        <custom-field action="translate" label="Custom header for page">_xts_page_custom_header</custom-field>
+        <custom-field action="translate" label="Custom header for product">_xts_single_product_header</custom-field>
+        <custom-field action="translate" label="Additional Tab HTML Block">_xts_single_product_custom_additional_tab_html_block</custom-field>
+    </custom-fields>
+</wpml-config>
+
+

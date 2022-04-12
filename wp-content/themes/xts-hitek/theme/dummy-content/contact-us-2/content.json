@@ -1,0 +1,519 @@
+{
+	"page": {
+		"version": "0.4",
+		"title": "Basic Contact Us #2",
+		"type": "wp-page",
+		"content": [
+			{
+				"id": "7b08d1e3",
+				"settings": {
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "50",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "20",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "2a94231c",
+						"settings": {
+							"_column_size": 100,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "1d5ac0c3",
+								"settings": {
+									"subtitle": "",
+									"title": "Contact us",
+									"description": "We will answer any questions you may have about our online sales, rights or partnership service right here.",
+									"text_align": "center",
+									"width": {
+										"unit": "px",
+										"size": 429,
+										"sizes": []
+									},
+									"title_text_size": "xxl",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "2e142c25",
+				"settings": {
+					"structure": "40",
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "30",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "4d4a0275",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "68f26ee4",
+								"settings": {
+									"subtitle": "",
+									"title": "Address",
+									"description": "<p>67 Brewer St, London, UK<\/p>",
+									"design": "underline",
+									"title_text_size": "m",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "20e78ad8",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "2b0d4c47",
+								"settings": {
+									"subtitle": "",
+									"title": "Phone",
+									"description": "<p>+41 44 257 11 20<\/p>",
+									"design": "underline",
+									"title_text_size": "m",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "529f0107",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "313ae5f6",
+								"settings": {
+									"subtitle": "",
+									"title": "Email",
+									"description": "<p>xtemos@gmail.com<\/p>",
+									"design": "underline",
+									"title_text_size": "m",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "4624c163",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "4d1db98b",
+								"settings": {
+									"subtitle": "",
+									"title": "Website",
+									"description": "<p>xtemos.com<\/p>",
+									"design": "underline",
+									"title_text_size": "m",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "749c0757",
+				"settings": {
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "70",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_tablet": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "50",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "30",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "39472e91",
+						"settings": {
+							"_column_size": 100,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "7c5dabbc",
+								"settings": {
+									"latitude": "48.87146",
+									"longitude": "2.35500",
+									"map_height": {
+										"unit": "px",
+										"size": 500,
+										"sizes": []
+									},
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_google_map",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "d8e212",
+				"settings": {
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "50",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_tablet": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "30",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "10",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "3640e7d4",
+						"settings": {
+							"_column_size": 100,
+							"_inline_size": null,
+							"align": "center",
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "5a762329",
+								"settings": {
+									"subtitle": "",
+									"title": "Get answers to all your questions you might have",
+									"description": "<p>Commercial publishing platforms and content management systems ensure.<\/p>",
+									"text_align": "center",
+									"width": {
+										"unit": "px",
+										"size": 541,
+										"sizes": []
+									},
+									"title_text_size": "xxl",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "4553d18c",
+								"settings": {
+									"editor": "<p>Monday to Friday from<\/p>",
+									"_margin": {
+										"unit": "px",
+										"top": "0",
+										"right": "30",
+										"bottom": "25",
+										"left": "0",
+										"isLinked": false
+									},
+									"scroll_y": -80,
+									"_element_width": "auto"
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "text-editor",
+								"elType": "widget"
+							},
+							{
+								"id": "590d63ca",
+								"settings": {
+									"editor": "<p><strong>09:00 to 21:00 UTC +2<\/strong><\/p>",
+									"_margin": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "25",
+										"left": "0",
+										"isLinked": false
+									},
+									"scroll_y": -80,
+									"_element_width": "auto"
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "text-editor",
+								"elType": "widget"
+							},
+							{
+								"id": "658ec2c4",
+								"settings": {
+									"html_block_id": "Popup contact us #2",
+									"button_text": "Contact our company",
+									"button_align": "center",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_popup",
+								"elType": "widget"
+							},
+							{
+								"id": "3b4e407a",
+								"settings": {
+									"type": "follow",
+									"align": "center",
+									"style": "bordered",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_social_buttons",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			}
+		]
+	},
+	"html_blocks": {
+		"0": {
+			"version": "0.4",
+			"title": "Popup contact us #2",
+			"type": "wp-post",
+			"content": [
+				{
+					"id": "3386c983",
+					"settings": {
+						"structure": "21"
+					},
+					"elements": [
+						{
+							"id": "44c0d0ea",
+							"settings": {
+								"_column_size": 33,
+								"_inline_size": 40,
+								"background_background": "classic",
+								"background_position": "bottom right",
+								"background_repeat": "no-repeat",
+								"background_size": "initial",
+								"background_bg_width": {
+									"unit": "%",
+									"size": 36,
+									"sizes": []
+								},
+								"column_sticky_offset": 50,
+								"scroll_y": -80
+							},
+							"elements": [
+								{
+									"id": "1f68372",
+									"settings": {
+										"image": {
+											"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/10\/mail-contact-us-3.svg",
+											"id": 5232
+										},
+										"image_size": "custom",
+										"scroll_y": -80,
+										"image_custom_dimension": {
+											"width": "100",
+											"height": "95"
+										}
+									},
+									"elements": [],
+									"isInner": false,
+									"widgetType": "xts_image",
+									"elType": "widget"
+								},
+								{
+									"id": "41f702df",
+									"settings": {
+										"subtitle": "",
+										"title": "Contact information",
+										"description": "<p>67 Brewer St, London, UK<\/p><p>xtemos@mail.com<\/p><p>+41 44 257 11 20<\/p>",
+										"scroll_y": -80,
+										"title_text_size": "m",
+										"text_align": "center"
+									},
+									"elements": [],
+									"isInner": false,
+									"widgetType": "xts_title",
+									"elType": "widget"
+								},
+								{
+									"id": "5cc6e68a",
+									"settings": {
+										"size": "s",
+										"style": "colored",
+										"scroll_y": -80,
+										"align": "center"
+									},
+									"elements": [],
+									"isInner": false,
+									"widgetType": "xts_social_buttons",
+									"elType": "widget"
+								}
+							],
+							"isInner": false,
+							"elType": "column"
+						},
+						{
+							"id": "3f167bd1",
+							"settings": {
+								"_column_size": 66,
+								"_inline_size": 59.665999999999997,
+								"background_background": "classic",
+								"column_sticky_offset": 50,
+								"scroll_y": -80
+							},
+							"elements": [
+								{
+									"id": "6e86953b",
+									"settings": {
+										"subtitle": "",
+										"title": "Send us a message",
+										"description": "",
+										"scroll_y": -80,
+										"title_text_size": "m"
+									},
+									"elements": [],
+									"isInner": false,
+									"widgetType": "xts_title",
+									"elType": "widget"
+								},
+								{
+									"id": "3bb74282",
+									"settings": {
+										"scroll_y": -80
+									},
+									"elements": [],
+									"isInner": false,
+									"widgetType": "xts_contact_form_7",
+									"elType": "widget"
+								}
+							],
+							"isInner": false,
+							"elType": "column"
+						}
+					],
+					"isInner": false,
+					"elType": "section"
+				}
+			]
+		}
+	}
+}

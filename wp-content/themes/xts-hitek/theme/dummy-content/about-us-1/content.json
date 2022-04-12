@@ -1,0 +1,1126 @@
+{
+	"page": {
+		"version": "0.4",
+		"title": "About Us #1",
+		"type": "wp-page",
+		"content": [
+			{
+				"id": "1cca82b7",
+				"settings": {
+					"xts_section_stretch": "stretch",
+					"background_background": "classic",
+					"background_color": "#33333308",
+					"margin": {
+						"unit": "px",
+						"top": "-30",
+						"right": "0",
+						"bottom": "50",
+						"left": "0",
+						"isLinked": false
+					},
+					"padding": {
+						"unit": "px",
+						"top": "50",
+						"right": "15",
+						"bottom": "50",
+						"left": "15",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "79dbf404",
+						"settings": {
+							"_column_size": 100,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "504295e0",
+								"settings": {
+									"subtitle": "",
+									"title": "About Us",
+									"description": "<p>We will answer any questions you may have about our online sales, rights or partnership service right here.<\/p>",
+									"text_align": "center",
+									"width": {
+										"unit": "px",
+										"size": 475,
+										"sizes": []
+									},
+									"title_text_size": "xxl",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "4a95d5e7",
+				"settings": {
+					"content_position": "middle",
+					"structure": "20"
+				},
+				"elements": [
+					{
+						"id": "6e7b4b4f",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80,
+							"_inline_size_tablet": 100
+						},
+						"elements": [
+							{
+								"id": "547d7a08",
+								"settings": {
+									"subtitle": "From our clients",
+									"title": "We and our clients are happy to cooperate with our company",
+									"description": "",
+									"width": {
+										"unit": "px",
+										"size": 505,
+										"sizes": []
+									},
+									"title_text_size": "xl",
+									"scroll_y": -80,
+									"width_tablet": {
+										"unit": "px",
+										"size": 376,
+										"sizes": []
+									}
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "4144e884",
+								"settings": {
+									"structure": "20"
+								},
+								"elements": [
+									{
+										"id": "533c3114",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "4806837",
+												"settings": {
+													"icon_type": "text",
+													"text_icon": "20+",
+													"icon_size": "s",
+													"subtitle": "",
+													"title": "Graphic design",
+													"description": "Chisel away what's not needed, you come to the point, make clear.",
+													"button_text": "",
+													"button_link": {
+														"url": "",
+														"is_external": false,
+														"nofollow": false,
+														"custom_attributes": ""
+													},
+													"content_align": "left",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_infobox",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									},
+									{
+										"id": "17a0a1ad",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "43d34896",
+												"settings": {
+													"icon_type": "text",
+													"text_icon": "50+",
+													"icon_size": "s",
+													"subtitle": "",
+													"title": "Finished projects",
+													"description": "I'd say, there are some redeeming factors in favor of greeking.",
+													"button_text": "",
+													"button_link": {
+														"url": "",
+														"is_external": false,
+														"nofollow": false,
+														"custom_attributes": ""
+													},
+													"content_align": "left",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_infobox",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									}
+								],
+								"isInner": true,
+								"elType": "section"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "4a581cd1",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80,
+							"_inline_size_tablet": 100
+						},
+						"elements": [
+							{
+								"id": "40f5e89e",
+								"settings": {
+									"gallery": [
+										{
+											"id": 5216,
+											"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/10\/pages-about-us-1-opt.jpg"
+										},
+										{
+											"id": 5217,
+											"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/10\/pages-about-us-2-opt.jpg"
+										}
+									],
+									"gallery_size": "full",
+									"columns": {
+										"unit": "px",
+										"size": 2,
+										"sizes": []
+									},
+									"different_images_position": "2,5,8,9",
+									"sync_parent_id": "5f46810bd0a2f",
+									"scroll_y": -80,
+									"image_horizontal_position": "left",
+									"columns_tablet": {
+										"unit": "px",
+										"size": 2,
+										"sizes": []
+									},
+									"click_action": "nothing"
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_image_gallery",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "5be66e18",
+				"settings": {
+					"content_position": "bottom",
+					"structure": "33",
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "40",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "18f0745d",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80,
+							"_inline_size_tablet": 50
+						},
+						"elements": [
+							{
+								"id": "1b3c4559",
+								"settings": {
+									"circle_size": {
+										"unit": "px",
+										"size": 80,
+										"sizes": []
+									},
+									"suffix": "%",
+									"percent_value": {
+										"unit": "%",
+										"size": 63,
+										"sizes": []
+									},
+									"line_endings": "round",
+									"scroll_y": -80,
+									"value_text_size": "m",
+									"value_custom_typography_typography": "custom",
+									"value_custom_typography_font_weight": "600"
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_circle_progress",
+								"elType": "widget"
+							},
+							{
+								"id": "6b999101",
+								"settings": {
+									"subtitle": "",
+									"title": "Digital marketing",
+									"description": "<p>Desire behind latter me though yet<br \/>any travelling assistance indulgence.<\/p>",
+									"title_text_size": "m",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "41a72b0f",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80,
+							"_inline_size_tablet": 50
+						},
+						"elements": [
+							{
+								"id": "a58e31f",
+								"settings": {
+									"circle_size": {
+										"unit": "px",
+										"size": 80,
+										"sizes": []
+									},
+									"suffix": "%",
+									"percent_value": {
+										"unit": "%",
+										"size": 92,
+										"sizes": []
+									},
+									"line_endings": "round",
+									"scroll_y": -80,
+									"value_text_size": "m",
+									"value_custom_typography_typography": "custom",
+									"value_custom_typography_font_weight": "600"
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_circle_progress",
+								"elType": "widget"
+							},
+							{
+								"id": "15cacc93",
+								"settings": {
+									"subtitle": "",
+									"title": "Happy clients",
+									"description": "<p>Desire behind latter me though yet<br \/>any travelling assistance indulgence.<\/p>",
+									"title_text_size": "m",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "3e7bce4b",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80,
+							"_inline_size_tablet": 100
+						},
+						"elements": [
+							{
+								"id": "4f75ec30",
+								"settings": {
+									"title": "Backend development",
+									"percent": {
+										"unit": "%",
+										"size": 70,
+										"sizes": []
+									},
+									"display_percentage": "hide",
+									"inner_text": "",
+									"bar_height": {
+										"unit": "px",
+										"size": 7,
+										"sizes": []
+									},
+									"scroll_y": -80,
+									"title_color": "#333333",
+									"typography_typography": "custom",
+									"typography_font_weight": "600"
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "progress",
+								"elType": "widget"
+							},
+							{
+								"id": "529c9380",
+								"settings": {
+									"title": "Web design",
+									"percent": {
+										"unit": "%",
+										"size": 60,
+										"sizes": []
+									},
+									"display_percentage": "hide",
+									"inner_text": "",
+									"bar_height": {
+										"unit": "px",
+										"size": 7,
+										"sizes": []
+									},
+									"scroll_y": -80,
+									"title_color": "#333333",
+									"typography_typography": "custom",
+									"typography_font_weight": "600"
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "progress",
+								"elType": "widget"
+							},
+							{
+								"id": "4b574681",
+								"settings": {
+									"title": "Motion design",
+									"percent": {
+										"unit": "%",
+										"size": 90,
+										"sizes": []
+									},
+									"display_percentage": "hide",
+									"inner_text": "",
+									"bar_height": {
+										"unit": "px",
+										"size": 7,
+										"sizes": []
+									},
+									"scroll_y": -80,
+									"title_color": "#333333",
+									"typography_typography": "custom",
+									"typography_font_weight": "600"
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "progress",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "66cb9f0a",
+				"settings": {
+					"custom_height": {
+						"unit": "px",
+						"size": 480,
+						"sizes": []
+					},
+					"background_background": "classic",
+					"background_image": {
+						"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/09\/pages-about-us-3-opt.jpg",
+						"id": 4915
+					},
+					"background_position": "center center",
+					"background_repeat": "no-repeat",
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "60",
+						"left": "0",
+						"isLinked": false
+					},
+					"padding": {
+						"unit": "px",
+						"top": "120",
+						"right": "15",
+						"bottom": "120",
+						"left": "15",
+						"isLinked": false
+					},
+					"background_size": "cover",
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "40",
+						"left": "0",
+						"isLinked": false
+					},
+					"padding_tablet": {
+						"unit": "px",
+						"top": "100",
+						"right": "15",
+						"bottom": "100",
+						"left": "15",
+						"isLinked": false
+					},
+					"padding_mobile": {
+						"unit": "px",
+						"top": "80",
+						"right": "15",
+						"bottom": "80",
+						"left": "15",
+						"isLinked": false
+					},
+					"border_radius": {
+						"unit": "px",
+						"top": "5",
+						"right": "5",
+						"bottom": "5",
+						"left": "5",
+						"isLinked": true
+					}
+				},
+				"elements": [
+					{
+						"id": "174c8829",
+						"settings": {
+							"_column_size": 100,
+							"_inline_size": null,
+							"align": "center",
+							"background_background": "classic",
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "4e95bfbe",
+								"settings": {
+									"subtitle": "",
+									"title": "\u201cI think this will be a new feature. Just don't tell anyone that it came about by accident.\u201d",
+									"description": "",
+									"text_align": "center",
+									"color_scheme": "light",
+									"width": {
+										"unit": "px",
+										"size": 648,
+										"sizes": []
+									},
+									"title_text_size": "xl",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "712a7413",
+								"settings": {
+									"icon_type": "image",
+									"text_icon": "1.",
+									"image": {
+										"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/08\/pages-about-us-avatar-round.png",
+										"id": 4701
+									},
+									"image_size": "custom",
+									"image_custom_dimension": {
+										"width": "60",
+										"height": "60"
+									},
+									"subtitle": "",
+									"title": "Darlene Robertson",
+									"description": "CEO \/ Founder",
+									"button_text": "",
+									"button_link": {
+										"url": "",
+										"is_external": false,
+										"nofollow": false,
+										"custom_attributes": ""
+									},
+									"content_align": "left",
+									"infobox_color_scheme_switcher": "yes",
+									"infobox_color_scheme": "light",
+									"icon_position": "side",
+									"icon_vertical_position": "center",
+									"scroll_y": -80,
+									"_element_width": "auto"
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_infobox",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "56887e50",
+				"settings": {
+					"structure": "31",
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "60",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "40",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "3acb91a3",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80,
+							"_inline_size_tablet": 50
+						},
+						"elements": [
+							{
+								"id": "7be4992a",
+								"settings": {
+									"icon_type": "text",
+									"text_icon": "01.",
+									"subtitle": "",
+									"title": "Training practice",
+									"description": "Even if your less into design and more into content strategy you may.",
+									"button_text": "",
+									"button_link": {
+										"url": "",
+										"is_external": false,
+										"nofollow": false,
+										"custom_attributes": ""
+									},
+									"content_align": "left",
+									"infobox_background_switcher": "yes",
+									"infobox_background_normal_color": "#D0D0D026",
+									"box_padding": {
+										"unit": "px",
+										"top": "80",
+										"right": "40",
+										"bottom": "80",
+										"left": "40",
+										"isLinked": false
+									},
+									"icon_color_switcher": "yes",
+									"title_text_size": "l",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_infobox",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "3bdfc49c",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80,
+							"_inline_size_tablet": 50
+						},
+						"elements": [
+							{
+								"id": "b2c6abf",
+								"settings": {
+									"icon_type": "text",
+									"text_icon": "02.",
+									"subtitle": "",
+									"title": "Detailed project",
+									"description": "Find some redeeming value with, wait for it, dummy copy, no less.",
+									"button_text": "",
+									"button_link": {
+										"url": "",
+										"is_external": false,
+										"nofollow": false,
+										"custom_attributes": ""
+									},
+									"content_align": "left",
+									"infobox_background_switcher": "yes",
+									"infobox_background_normal_color": "#D0D0D026",
+									"box_padding": {
+										"unit": "px",
+										"top": "80",
+										"right": "40",
+										"bottom": "80",
+										"left": "40",
+										"isLinked": false
+									},
+									"icon_color_switcher": "yes",
+									"title_text_size": "l",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_infobox",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "60b8b889",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80,
+							"_inline_size_tablet": 100
+						},
+						"elements": [
+							{
+								"id": "1d96e56e",
+								"settings": {
+									"video_youtube_url": "https:\/\/www.youtube.com\/watch?v=XHOmBV4js_E",
+									"video_vimeo_url": "https:\/\/vimeo.com\/235215203",
+									"video_image_overlay": {
+										"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/09\/pages-about-us-4-opt.jpg",
+										"id": 4916
+									},
+									"button_text": "Play video",
+									"video_height": {
+										"unit": "px",
+										"size": 348,
+										"sizes": []
+									},
+									"scroll_y": -80,
+									"video_height_tablet": {
+										"unit": "px",
+										"size": 420,
+										"sizes": []
+									}
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_video",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "341aea64",
+				"settings": {
+					"structure": "20",
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "60",
+						"left": "0",
+						"isLinked": false
+					},
+					"content_position": "middle",
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "40",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "152161d2",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "2352fc68",
+								"settings": {
+									"subtitle": "Space - best theme of all time",
+									"title": "''Excellence is not a skill it's an attitude'' - Ralph Marston",
+									"description": "",
+									"width": {
+										"unit": "px",
+										"size": 416,
+										"sizes": []
+									},
+									"title_text_size": "xl",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "5a8a401b",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "35974f05",
+								"settings": {
+									"editor": "<p>A client that's unhappy for a reason is a problem, a client that's unhappy though he or her can't quite put a finger on it is worse. To short sentences, to proposed headings, images too large for the design, or too small, in but it looks.<\/p><p><a href=\"#\"><strong>Developed by Xtemos Studio @ 2020.<\/strong><\/a><\/p>",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "text-editor",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "172064ca",
+				"settings": {
+					"structure": "40",
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "50",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_tablet": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "30",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "10",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "7140f797",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "5a720904",
+								"settings": {
+									"image": {
+										"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/09\/pages-about-us-peop-1-1-opt.jpg",
+										"id": 4917
+									},
+									"image_size": "full",
+									"name": "Dianne Russell",
+									"position": "CEO \/ Founder",
+									"description": "",
+									"social_icons_switcher": "",
+									"social_icon_list": [
+										{
+											"social_link": "#",
+											"_id": "e5a3c89"
+										},
+										{
+											"social_icon": "twitter",
+											"social_link": "#",
+											"_id": "b65a0b4"
+										},
+										{
+											"social_icon": "linkedin",
+											"social_link": "#",
+											"_id": "c577c52"
+										},
+										{
+											"social_icon": "instagram",
+											"social_link": "#",
+											"_id": "6151942"
+										},
+										{
+											"social_icon": "github",
+											"social_link": "#",
+											"_id": "560dfde"
+										}
+									],
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_team_member",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "7102d566",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "12492518",
+								"settings": {
+									"image": {
+										"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/09\/pages-about-us-peop-2-1-opt.jpg",
+										"id": 4918
+									},
+									"image_size": "full",
+									"name": "Marvin McKinney",
+									"position": "CEO \/ Founder",
+									"description": "",
+									"social_icons_switcher": "",
+									"social_icon_list": [
+										{
+											"social_link": "#",
+											"_id": "e5a3c89"
+										},
+										{
+											"social_icon": "twitter",
+											"social_link": "#",
+											"_id": "b65a0b4"
+										},
+										{
+											"social_icon": "linkedin",
+											"social_link": "#",
+											"_id": "c577c52"
+										},
+										{
+											"social_icon": "instagram",
+											"social_link": "#",
+											"_id": "6151942"
+										},
+										{
+											"social_icon": "github",
+											"social_link": "#",
+											"_id": "560dfde"
+										}
+									],
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_team_member",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "49676c30",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "43f8406e",
+								"settings": {
+									"image": {
+										"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/09\/pages-about-us-peop-3-1-opt.jpg",
+										"id": 4919
+									},
+									"image_size": "full",
+									"name": "Kristin Watson",
+									"position": "CEO \/ Founder",
+									"description": "",
+									"social_icons_switcher": "",
+									"social_icon_list": [
+										{
+											"social_link": "#",
+											"_id": "e5a3c89"
+										},
+										{
+											"social_icon": "twitter",
+											"social_link": "#",
+											"_id": "b65a0b4"
+										},
+										{
+											"social_icon": "linkedin",
+											"social_link": "#",
+											"_id": "c577c52"
+										},
+										{
+											"social_icon": "instagram",
+											"social_link": "#",
+											"_id": "6151942"
+										},
+										{
+											"social_icon": "github",
+											"social_link": "#",
+											"_id": "560dfde"
+										}
+									],
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_team_member",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "668e3faa",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "449009fe",
+								"settings": {
+									"image": {
+										"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/09\/pages-about-us-peop-4-1-opt.jpg",
+										"id": 4920
+									},
+									"image_size": "full",
+									"name": "Ronald Richards",
+									"position": "CEO \/ Founder",
+									"description": "",
+									"social_icons_switcher": "",
+									"social_icon_list": [
+										{
+											"social_link": "#",
+											"_id": "e5a3c89"
+										},
+										{
+											"social_icon": "twitter",
+											"social_link": "#",
+											"_id": "b65a0b4"
+										},
+										{
+											"social_icon": "linkedin",
+											"social_link": "#",
+											"_id": "c577c52"
+										},
+										{
+											"social_icon": "instagram",
+											"social_link": "#",
+											"_id": "6151942"
+										},
+										{
+											"social_icon": "github",
+											"social_link": "#",
+											"_id": "560dfde"
+										}
+									],
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_team_member",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			}
+		]
+	}
+}

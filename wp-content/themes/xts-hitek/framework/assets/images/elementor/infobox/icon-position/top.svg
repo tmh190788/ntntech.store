@@ -1,0 +1,5 @@
+<svg width="120" height="30" viewBox="0 0 120 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle r="5" transform="matrix(-1 0 0 1 60 7)" fill="#74A3EE"/>
+<path d="M70 20C71.1046 20 72 19.1046 72 18V16C72 14.8954 71.1046 14 70 14H50C48.8954 14 48 14.8954 48 16V18C48 19.1046 48.8954 20 50 20H70Z" fill="#8F959F" fill-opacity="0.2"/>
+<path d="M67 28C68.1046 28 69 27.1045 69 26V24C69 22.8954 68.1046 22 67 22H53C51.8954 22 51 22.8954 51 24V26C51 27.1045 51.8954 28 53 28H67Z" fill="#8F959F" fill-opacity="0.2"/>
+</svg>

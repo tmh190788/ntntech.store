@@ -1,0 +1,716 @@
+{
+	"page": {
+		"version": "0.4",
+		"title": "About Me #1",
+		"type": "wp-page",
+		"content": [
+			{
+				"id": "289be48f",
+				"settings": {
+					"content_position": "middle",
+					"structure": "20",
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "60",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "40",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "8d7cf1f",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"_inline_size_tablet": 50,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "24a51946",
+								"settings": {
+									"gallery": [
+										{
+											"id": 4908,
+											"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/09\/pages-about-me-1-opt.jpg"
+										},
+										{
+											"id": 4909,
+											"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/09\/pages-about-me-2-opt.jpg"
+										}
+									],
+									"gallery_size": "full",
+									"image_horizontal_position": "left",
+									"columns": {
+										"unit": "px",
+										"size": 2,
+										"sizes": []
+									},
+									"columns_tablet": {
+										"unit": "px",
+										"size": 2,
+										"sizes": []
+									},
+									"columns_mobile": {
+										"unit": "px",
+										"size": 2,
+										"sizes": []
+									},
+									"different_images_position": "2,5,8,9",
+									"sync_parent_id": "5f4770409ad08",
+									"scroll_y": -80,
+									"click_action": "nothing"
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_image_gallery",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "4875826f",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"_inline_size_tablet": 50,
+							"margin": {
+								"unit": "px",
+								"top": "0",
+								"right": "0",
+								"bottom": "0",
+								"left": "40",
+								"isLinked": false
+							},
+							"margin_tablet": {
+								"unit": "px",
+								"top": "0",
+								"right": "0",
+								"bottom": "0",
+								"left": "0",
+								"isLinked": false
+							},
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "299a74d8",
+								"settings": {
+									"subtitle": "",
+									"title": "Hello! My name is - Kathryn Murphy",
+									"description": "",
+									"width": {
+										"unit": "px",
+										"size": 340,
+										"sizes": []
+									},
+									"width_tablet": {
+										"unit": "px",
+										"size": 296,
+										"sizes": []
+									},
+									"title_text_size": "xxl",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "480c161c",
+								"settings": {
+									"editor": "<p>Websites in professional use templating systems. Commercial\u00a0 content management systems ensure that you can show different product, different data using the same template when it's about.<\/p>",
+									"xts_content_width": {
+										"unit": "px",
+										"size": 496,
+										"sizes": []
+									},
+									"xts_content_width_tablet": {
+										"unit": "px",
+										"size": 581,
+										"sizes": []
+									},
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "text-editor",
+								"elType": "widget"
+							},
+							{
+								"id": "2fa9f87f",
+								"settings": {
+									"button_text": "Contact me",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_button",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "24039118",
+				"settings": {
+					"content_position": "middle",
+					"structure": "32",
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "60",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "40",
+						"left": "0",
+						"isLinked": false
+					},
+					"reverse_order_mobile": "reverse-mobile"
+				},
+				"elements": [
+					{
+						"id": "51f10fd",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "2a823206",
+								"settings": {
+									"editor": "<p><a href=\"#\"><strong>Developed by Xtemos Studio @ 2020.<\/strong><\/a><\/p><p>Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always the way you like it, not always in the preferred order.<\/p>",
+									"scroll_y": -80,
+									"xts_content_width": {
+										"unit": "px",
+										"size": 452,
+										"sizes": []
+									},
+									"_margin": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "10",
+										"left": "0",
+										"isLinked": false
+									}
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "text-editor",
+								"elType": "widget"
+							},
+							{
+								"id": "68adb8f3",
+								"settings": {
+									"button_text": "Contact us",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_button",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "d011de6",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"_inline_size_mobile": 50,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "426a5c67",
+								"settings": {
+									"icon_type": "text",
+									"text_icon": "63%",
+									"icon_size": "s",
+									"subtitle": "",
+									"title": "Graphic design",
+									"description": "Chisel away what's not needed, you come to the point, make clear.",
+									"button_text": "",
+									"button_link": {
+										"url": "",
+										"is_external": false,
+										"nofollow": false,
+										"custom_attributes": ""
+									},
+									"content_align": "left",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_infobox",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "765758ea",
+						"settings": {
+							"_column_size": 25,
+							"_inline_size": null,
+							"_inline_size_mobile": 50,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "21c41b98",
+								"settings": {
+									"icon_type": "text",
+									"text_icon": "95%",
+									"icon_size": "s",
+									"subtitle": "",
+									"title": "Finished projects",
+									"description": "I'd say, there are some redeeming factors in favor of greeking.",
+									"button_text": "",
+									"button_link": {
+										"url": "",
+										"is_external": false,
+										"nofollow": false,
+										"custom_attributes": ""
+									},
+									"content_align": "left",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_infobox",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "715efbfb",
+				"settings": {
+					"structure": "20",
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "60",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "40",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_tablet": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "40",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "2d42f7cd",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"_inline_size_tablet": 100,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "5b2a5495",
+								"settings": {
+									"subtitle": "Information questions",
+									"title": "Specialties in which i work and have success",
+									"description": "",
+									"width": {
+										"unit": "px",
+										"size": 358,
+										"sizes": []
+									},
+									"width_tablet": {
+										"unit": "%",
+										"size": 100,
+										"sizes": []
+									},
+									"title_text_size": "xl",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "3a6bec44",
+								"settings": {
+									"structure": "20"
+								},
+								"elements": [
+									{
+										"id": "4b45bf73",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "7aa8c9d7",
+												"settings": {
+													"icon_type": "image",
+													"text_icon": "1.",
+													"image": {
+														"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/08\/pages-about-me-layers.svg",
+														"id": 4605
+													},
+													"image_size": "custom",
+													"image_custom_dimension": {
+														"width": "50",
+														"height": "50"
+													},
+													"subtitle": "",
+													"title": "Graphic design",
+													"description": "Curabitur lacinia tristique velit ut laoreet.",
+													"button_text": "",
+													"button_link": {
+														"url": "",
+														"is_external": false,
+														"nofollow": false,
+														"custom_attributes": ""
+													},
+													"content_align": "left",
+													"icon_position": "side",
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													},
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_infobox",
+												"elType": "widget"
+											},
+											{
+												"id": "562cc5e8",
+												"settings": {
+													"icon_type": "image",
+													"text_icon": "1.",
+													"image": {
+														"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/08\/pages-about-me-vector.svg",
+														"id": 4607
+													},
+													"image_size": "custom",
+													"image_custom_dimension": {
+														"width": "50",
+														"height": "50"
+													},
+													"subtitle": "",
+													"title": "Web design",
+													"description": "By the readable content of a page when its layout.",
+													"button_text": "",
+													"button_link": {
+														"url": "",
+														"is_external": false,
+														"nofollow": false,
+														"custom_attributes": ""
+													},
+													"content_align": "left",
+													"icon_position": "side",
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													},
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_infobox",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									},
+									{
+										"id": "b6d0931",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "7fe5789d",
+												"settings": {
+													"icon_type": "image",
+													"text_icon": "1.",
+													"image": {
+														"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/08\/pages-about-me-measuring-tape.svg",
+														"id": 4606
+													},
+													"image_size": "custom",
+													"image_custom_dimension": {
+														"width": "50",
+														"height": "50"
+													},
+													"subtitle": "",
+													"title": "Branding",
+													"description": "Fact that a reader will be distracted.",
+													"button_text": "",
+													"button_link": {
+														"url": "",
+														"is_external": false,
+														"nofollow": false,
+														"custom_attributes": ""
+													},
+													"content_align": "left",
+													"icon_position": "side",
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													},
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_infobox",
+												"elType": "widget"
+											},
+											{
+												"id": "41a4a41",
+												"settings": {
+													"icon_type": "image",
+													"text_icon": "1.",
+													"image": {
+														"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/08\/pages-about-me-camera.svg",
+														"id": 4604
+													},
+													"image_size": "custom",
+													"image_custom_dimension": {
+														"width": "50",
+														"height": "50"
+													},
+													"subtitle": "",
+													"title": "Photography",
+													"description": "The point of using Lorem Ipsum is that it has it.",
+													"button_text": "",
+													"button_link": {
+														"url": "",
+														"is_external": false,
+														"nofollow": false,
+														"custom_attributes": ""
+													},
+													"content_align": "left",
+													"icon_position": "side",
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "20",
+														"left": "0",
+														"isLinked": false
+													},
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_infobox",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									}
+								],
+								"isInner": true,
+								"elType": "section"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "798a29bf",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"_inline_size_tablet": 100,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "3e33c43b",
+								"settings": {
+									"video_youtube_url": "https:\/\/www.youtube.com\/watch?v=XHOmBV4js_E",
+									"video_vimeo_url": "https:\/\/vimeo.com\/235215203",
+									"video_image_overlay": {
+										"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/09\/pages-about-me-video-opt.jpg",
+										"id": 4911
+									},
+									"button_text": "Play video",
+									"video_height": {
+										"unit": "px",
+										"size": 380,
+										"sizes": []
+									},
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_video",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "5605cf7d",
+				"settings": {
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "50",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_tablet": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "30",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "10",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "5dfe19cc",
+						"settings": {
+							"_column_size": 100,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "259bde9f",
+								"settings": {
+									"subtitle": "",
+									"title": "Follow me on social networks",
+									"description": "<p>On projection apartments unsatiable so if he entreaties appearance. Rose you wife how set lady half wish. Hard sing an in true felt. Welcomed stronger if steepest ecstatic an suitable finished of oh.<\/p>",
+									"text_align": "center",
+									"width": {
+										"unit": "px",
+										"size": 737,
+										"sizes": []
+									},
+									"title_text_size": "xxl",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "55fb27cf",
+								"settings": {
+									"type": "follow",
+									"align": "center",
+									"size": "s",
+									"style": "bordered",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_social_buttons",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			}
+		]
+	}
+}

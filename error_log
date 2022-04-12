@@ -1,0 +1,1 @@
+[12-Dec-2021 16:03:47 UTC] The get_woocommerce_term_meta function is deprecated since version 3.6. Replace with get_term_meta.

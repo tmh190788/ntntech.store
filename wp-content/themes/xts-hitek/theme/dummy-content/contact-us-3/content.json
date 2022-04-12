@@ -1,0 +1,512 @@
+{
+	"page": {
+		"version": "0.4",
+		"title": "Basic Contact Us #3",
+		"type": "wp-page",
+		"content": [
+			{
+				"id": "62da80a1",
+				"settings": {
+					"gap": "no",
+					"xts_section_stretch": "stretch-content",
+					"margin": {
+						"unit": "px",
+						"top": "-30",
+						"right": "0",
+						"bottom": "80",
+						"left": "0",
+						"isLinked": false
+					},
+					"padding": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "0",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_tablet": {
+						"unit": "px",
+						"top": "-30",
+						"right": "0",
+						"bottom": "30",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "-30",
+						"right": "0",
+						"bottom": "10",
+						"left": "0",
+						"isLinked": false
+					},
+					"padding_tablet": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "0",
+						"left": "0",
+						"isLinked": false
+					},
+					"padding_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "0",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "76c72c8e",
+						"settings": {
+							"_column_size": 100,
+							"_inline_size": null,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "59ff94c8",
+								"settings": {
+									"latitude": "39.950557",
+									"longitude": "-75.140658",
+									"map_height": {
+										"unit": "px",
+										"size": 360,
+										"sizes": []
+									},
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_google_map",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			},
+			{
+				"id": "a71fa25",
+				"settings": {
+					"structure": "20",
+					"padding": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "50",
+						"left": "0",
+						"isLinked": false
+					},
+					"padding_tablet": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "30",
+						"left": "0",
+						"isLinked": false
+					},
+					"padding_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "10",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "49f003fa",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"border_border": "solid",
+							"border_width": {
+								"unit": "px",
+								"top": "0",
+								"right": "1",
+								"bottom": "0",
+								"left": "0",
+								"isLinked": false
+							},
+							"padding": {
+								"unit": "px",
+								"top": "10",
+								"right": "40",
+								"bottom": "10",
+								"left": "10",
+								"isLinked": false
+							},
+							"column_sticky_offset": 50,
+							"scroll_y": -80,
+							"border_width_mobile": {
+								"unit": "px",
+								"top": "0",
+								"right": "0",
+								"bottom": "0",
+								"left": "0",
+								"isLinked": false
+							},
+							"border_color": "#77777733"
+						},
+						"elements": [
+							{
+								"id": "2ddafa54",
+								"settings": {
+									"subtitle": "",
+									"title": "Contact us for any questions",
+									"description": "<p>A seemingly elegant design can quickly begin to bloat with unexpected content or break under the weight.<\/p>",
+									"width": {
+										"unit": "px",
+										"size": 415,
+										"sizes": []
+									},
+									"title_text_size": "xl",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "4a09a4d3",
+								"settings": {
+									"scroll_y": -80,
+									"form_id": "4554"
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_contact_form_7",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "40902b61",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": null,
+							"padding": {
+								"unit": "px",
+								"top": "10",
+								"right": "10",
+								"bottom": "10",
+								"left": "40",
+								"isLinked": false
+							},
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "7ff64ef8",
+								"settings": {
+									"subtitle": "",
+									"title": "Frequently asked questions",
+									"description": "<p>At worst the discussion is at least working towards the final goal of your site where questions about lorem ipsum don\u2019t. If the copy becomes distracting changes in the design then you are doing something wrong.<\/p><p>Sagittis posuere id nam quis ullamcorper vestibulum vestibulum a facilisi at elit hendrerit <a href=\"#\"><b>scelerisque sodales<\/b><\/a> nam ullamcorper egestas nulla enim.<\/p>",
+									"width": {
+										"unit": "px",
+										"size": "",
+										"sizes": []
+									},
+									"title_text_size": "xl",
+									"scroll_y": -80,
+									"_margin": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "10",
+										"left": "0",
+										"isLinked": false
+									}
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "475be13",
+								"settings": {
+									"subtitle": "",
+									"title": "Contact us",
+									"description": "",
+									"_margin": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "-10",
+										"left": "0",
+										"isLinked": false
+									},
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "3c54f3d4",
+								"settings": {
+									"structure": "20",
+									"border_border": "solid",
+									"border_width": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "1",
+										"left": "0",
+										"isLinked": false
+									},
+									"border_color": "#77777733",
+									"margin": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "20",
+										"left": "0",
+										"isLinked": false
+									}
+								},
+								"elements": [
+									{
+										"id": "4ae2b66",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "22e96fe1",
+												"settings": {
+													"icon_type": "image",
+													"text_icon": "1.",
+													"image": {
+														"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/08\/pages-contact-us-smartphone.svg",
+														"id": 4602
+													},
+													"image_size": "custom",
+													"image_custom_dimension": {
+														"width": "40",
+														"height": "40"
+													},
+													"subtitle": "",
+													"title": "",
+													"description": "<strong>Phone:<\/strong> 987-654-3210\n<strong>Email:<\/strong>\u00a0xtemos@gmail.com",
+													"button_text": "",
+													"button_link": {
+														"url": "",
+														"is_external": false,
+														"nofollow": false,
+														"custom_attributes": ""
+													},
+													"content_align": "left",
+													"icon_position": "side",
+													"icon_vertical_position": "center",
+													"description_text_size": "xs",
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "10",
+														"left": "0",
+														"isLinked": false
+													},
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_infobox",
+												"elType": "widget"
+											},
+											{
+												"id": "1add2ca1",
+												"settings": {
+													"icon_type": "image",
+													"text_icon": "1.",
+													"image": {
+														"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/08\/pages-contact-us-van.svg",
+														"id": 4603
+													},
+													"image_size": "custom",
+													"image_custom_dimension": {
+														"width": "40",
+														"height": "40"
+													},
+													"subtitle": "",
+													"title": "",
+													"description": "<strong>Free standard shipping<br>\non all orders.<\/strong>",
+													"button_text": "",
+													"button_link": {
+														"url": "",
+														"is_external": false,
+														"nofollow": false,
+														"custom_attributes": ""
+													},
+													"content_align": "left",
+													"icon_position": "side",
+													"icon_vertical_position": "center",
+													"description_text_size": "xs",
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "10",
+														"left": "0",
+														"isLinked": false
+													},
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_infobox",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									},
+									{
+										"id": "51631958",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "22447cc1",
+												"settings": {
+													"icon_type": "image",
+													"text_icon": "1.",
+													"image": {
+														"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/08\/pages-contact-us-comment.svg",
+														"id": 4608
+													},
+													"image_size": "custom",
+													"image_custom_dimension": {
+														"width": "40",
+														"height": "40"
+													},
+													"subtitle": "",
+													"title": "",
+													"description": "<strong>Support forum<br>\nfor over 24h<\/strong>",
+													"button_text": "",
+													"button_link": {
+														"url": "",
+														"is_external": false,
+														"nofollow": false,
+														"custom_attributes": ""
+													},
+													"content_align": "left",
+													"icon_position": "side",
+													"icon_vertical_position": "center",
+													"description_text_size": "xs",
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "10",
+														"left": "0",
+														"isLinked": false
+													},
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_infobox",
+												"elType": "widget"
+											},
+											{
+												"id": "7d701f85",
+												"settings": {
+													"icon_type": "image",
+													"text_icon": "1.",
+													"image": {
+														"url": "https:\/\/space.xtemos.com\/demo\/wp-content\/uploads\/2020\/08\/pages-contact-us-map-pointer.svg",
+														"id": 4609
+													},
+													"image_size": "custom",
+													"image_custom_dimension": {
+														"width": "40",
+														"height": "40"
+													},
+													"subtitle": "",
+													"title": "",
+													"description": "<strong>Address:<\/strong> 8099 Trenton St.Minneapolis, MN 55406",
+													"button_text": "",
+													"button_link": {
+														"url": "",
+														"is_external": false,
+														"nofollow": false,
+														"custom_attributes": ""
+													},
+													"content_align": "left",
+													"icon_position": "side",
+													"icon_vertical_position": "center",
+													"description_text_size": "xs",
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "10",
+														"left": "0",
+														"isLinked": false
+													},
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_infobox",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									}
+								],
+								"isInner": true,
+								"elType": "section"
+							},
+							{
+								"id": "4137ebb2",
+								"settings": {
+									"editor": "<p>Do you have questions about how we can help your company? <a href=\"#\"><strong>Send us an email and we\u2019ll get in touch shortly.<\/strong><\/a><\/p>",
+									"xts_content_width": {
+										"unit": "px",
+										"size": 450,
+										"sizes": []
+									},
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "text-editor",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			}
+		]
+	}
+}

@@ -1,0 +1,151 @@
+{
+	"1": {
+		"id": 1,
+		"name": "home_3",
+		"condition": {
+			"relation": "OR",
+			"rules": [
+				{
+					"type": "post_id",
+					"comparison": "equals",
+					"post_type": "post",
+					"taxonomy": "category",
+					"custom": "search",
+					"value_id": "1223"
+				}
+			]
+		}
+	},
+	"2": {
+		"id": 2,
+		"name": "home_2",
+		"condition": {
+			"relation": "OR",
+			"rules": [
+				{
+					"type": "post_id",
+					"comparison": "equals",
+					"post_type": "post",
+					"taxonomy": "category",
+					"custom": "search",
+					"value_id": "1135"
+				}
+			]
+		}
+	},
+	"5": {
+		"id": 5,
+		"name": "with_page_heading_hitek",
+		"condition": []
+	},
+	"6": {
+		"id": 6,
+		"name": "shop_header_overlap_hitek",
+		"condition": []
+	},
+	"7": {
+		"id": 7,
+		"name": "shop_filters_hitek",
+		"condition": []
+	},
+	"8": {
+		"id": 8,
+		"name": "without_sidebar_hitek",
+		"condition": []
+	},
+	"9": {
+		"id": 9,
+		"name": "hover_content_on_image_hitek",
+		"condition": []
+	},
+	"11": {
+		"id": 11,
+		"name": "off_canvas_sidebar_hitek",
+		"condition": []
+	},
+	"13": {
+		"id": 13,
+		"name": "animation_view_hitek",
+		"condition": []
+	},
+	"14": {
+		"id": 14,
+		"name": "hover_summary_hitek",
+		"condition": []
+	},
+	"15": {
+		"id": 15,
+		"name": "hover_bottom_button_hitek",
+		"condition": []
+	},
+	"16": {
+		"id": 16,
+		"name": "hover_button_on_image_hitek",
+		"condition": []
+	},
+	"18": {
+		"id": 18,
+		"name": "hover_icons_on_image_hitek",
+		"condition": []
+	},
+	"19": {
+		"id": 19,
+		"name": "product_thumb_left_hitek",
+		"condition": []
+	},
+	"20": {
+		"id": 20,
+		"name": "product_thumb_one_column_hitek",
+		"condition": []
+	},
+	"21": {
+		"id": 21,
+		"name": "product_thumb_two_columns_hitek",
+		"condition": []
+	},
+	"22": {
+		"id": 22,
+		"name": "with_sidebar_hitek",
+		"condition": []
+	},
+	"23": {
+		"id": 23,
+		"name": "product_accordion_tabs_hitek",
+		"condition": []
+	},
+	"24": {
+		"id": 24,
+		"name": "cookies_law_hitek",
+		"condition": []
+	},
+	"25": {
+		"id": 25,
+		"name": "catalog_mode_hitek",
+		"condition": []
+	},
+	"26": {
+		"id": 26,
+		"name": "image_page_title_hitek",
+		"condition": []
+	},
+	"27": {
+		"id": 27,
+		"name": "blog_content_boxed_hitek",
+		"condition": []
+	},
+	"28": {
+		"id": 28,
+		"name": "load_more_hitek",
+		"condition": []
+	},
+	"29": {
+		"id": 29,
+		"name": "infinite_scrolling_hitek",
+		"condition": []
+	},
+	"30": {
+		"id": 30,
+		"name": "blog_one_column_hitek",
+		"condition": []
+	}
+}

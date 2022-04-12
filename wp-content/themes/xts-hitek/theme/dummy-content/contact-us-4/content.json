@@ -1,0 +1,395 @@
+{
+	"page": {
+		"version": "0.4",
+		"title": "Basic Contact Us #4",
+		"type": "wp-page",
+		"content": [
+			{
+				"id": "2a1fa79f",
+				"settings": {
+					"structure": "20",
+					"margin": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "50",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_tablet": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "30",
+						"left": "0",
+						"isLinked": false
+					},
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "10",
+						"left": "0",
+						"isLinked": false
+					}
+				},
+				"elements": [
+					{
+						"id": "4cad7449",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": 36,
+							"_inline_size_tablet": 50,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "2fec1142",
+								"settings": {
+									"subtitle": "Information questions",
+									"title": "Our address",
+									"description": "",
+									"title_text_size": "xl",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "373431",
+								"settings": {
+									"structure": "20",
+									"margin": {
+										"unit": "px",
+										"top": "0",
+										"right": "0",
+										"bottom": "20",
+										"left": "0",
+										"isLinked": false
+									}
+								},
+								"elements": [
+									{
+										"id": "6f572b51",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "5d66f9a8",
+												"settings": {
+													"subtitle": "",
+													"title": "New York",
+													"description": "",
+													"title_text_size": "m",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "79b46f5",
+												"settings": {
+													"editor": "<p>New Avenue, 67 Brewer St, New York, USA<\/p>",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "434e0187",
+												"settings": {
+													"editor": "<p><strong>Phone:<\/strong> +45 861 31 13<br \/><strong>Email:<\/strong> xtems@mail.com<\/p>",
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "10",
+														"left": "0",
+														"isLinked": false
+													},
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									},
+									{
+										"id": "7f21c3cc",
+										"settings": {
+											"_column_size": 50,
+											"_inline_size": null,
+											"column_sticky_offset": 50,
+											"scroll_y": -80
+										},
+										"elements": [
+											{
+												"id": "4b7db025",
+												"settings": {
+													"subtitle": "",
+													"title": "Denmark",
+													"description": "",
+													"title_text_size": "m",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "xts_title",
+												"elType": "widget"
+											},
+											{
+												"id": "a67b998",
+												"settings": {
+													"editor": "Volden 28 8000,<br>Aarhus, Denmark",
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											},
+											{
+												"id": "5bb50d2a",
+												"settings": {
+													"editor": "<p><strong>Phone:<\/strong> +23 954 35 55<br \/><strong>Email:<\/strong> xtems@mail.com<\/p>",
+													"_margin": {
+														"unit": "px",
+														"top": "0",
+														"right": "0",
+														"bottom": "10",
+														"left": "0",
+														"isLinked": false
+													},
+													"scroll_y": -80
+												},
+												"elements": [],
+												"isInner": false,
+												"widgetType": "text-editor",
+												"elType": "widget"
+											}
+										],
+										"isInner": true,
+										"elType": "column"
+									}
+								],
+								"isInner": true,
+								"elType": "section"
+							},
+							{
+								"id": "4c9347a2",
+								"settings": {
+									"subtitle": "",
+									"title": "Contact us",
+									"description": "<p>At worst the discussion is at least working towards the final goal of your site where questions about.<\/p>",
+									"width": {
+										"unit": "px",
+										"size": 375,
+										"sizes": []
+									},
+									"title_text_size": "xl",
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_title",
+								"elType": "widget"
+							},
+							{
+								"id": "3cf8183b",
+								"settings": {
+									"html_block_id": "Popup contact us",
+									"button_text": "Write a message",
+									"scroll_y": -80,
+									"width": {
+										"unit": "px",
+										"size": 600,
+										"sizes": []
+									}
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_popup",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					},
+					{
+						"id": "69f336e",
+						"settings": {
+							"_column_size": 50,
+							"_inline_size": 64,
+							"_inline_size_tablet": 50,
+							"column_sticky_offset": 50,
+							"scroll_y": -80
+						},
+						"elements": [
+							{
+								"id": "3a9ce21e",
+								"settings": {
+									"latitude": "48.87146",
+									"longitude": "2.35500",
+									"map_height": {
+										"unit": "px",
+										"size": 500,
+										"sizes": []
+									},
+									"scroll_y": -80
+								},
+								"elements": [],
+								"isInner": false,
+								"widgetType": "xts_google_map",
+								"elType": "widget"
+							}
+						],
+						"isInner": false,
+						"elType": "column"
+					}
+				],
+				"isInner": false,
+				"elType": "section"
+			}
+		]
+	},
+	"html_blocks": {
+		"0": {
+			"version": "0.4",
+			"title": "Popup contact us",
+			"type": "wp-post",
+			"content": [
+				{
+					"id": "53f1ba5",
+					"settings": {
+						"content_position": "middle",
+						"background_background": "classic",
+						"background_color": "#33333308",
+						"margin": {
+							"unit": "px",
+							"top": "-30",
+							"right": "-30",
+							"bottom": "30",
+							"left": "-30",
+							"isLinked": false
+						},
+						"padding": {
+							"unit": "px",
+							"top": "30",
+							"right": "30",
+							"bottom": "30",
+							"left": "30",
+							"isLinked": false
+						}
+					},
+					"elements": [
+						{
+							"id": "4de8d29e",
+							"settings": {
+								"_column_size": 100,
+								"_inline_size": null,
+								"column_sticky_offset": 50,
+								"scroll_y": -80
+							},
+							"elements": [
+								{
+									"id": "48093a69",
+									"settings": {
+										"subtitle": "",
+										"title": "Send us a message",
+										"description": "",
+										"scroll_y": -80
+									},
+									"elements": [],
+									"isInner": false,
+									"widgetType": "xts_title",
+									"elType": "widget"
+								}
+							],
+							"isInner": false,
+							"elType": "column"
+						}
+					],
+					"isInner": false,
+					"elType": "section"
+				},
+				{
+					"id": "18d2790c",
+					"settings": {
+						"content_position": "middle",
+						"margin": {
+							"unit": "px",
+							"top": "0",
+							"right": "0",
+							"bottom": "-30",
+							"left": "0",
+							"isLinked": false
+						}
+					},
+					"elements": [
+						{
+							"id": "47ec42b8",
+							"settings": {
+								"_column_size": 100,
+								"_inline_size": null,
+								"column_sticky_offset": 50,
+								"scroll_y": -80
+							},
+							"elements": [
+								{
+									"id": "2d5c474",
+									"settings": {
+										"scroll_y": -80
+									},
+									"elements": [],
+									"isInner": false,
+									"widgetType": "xts_contact_form_7",
+									"elType": "widget"
+								},
+								{
+									"id": "7bba107f",
+									"settings": {
+										"align": "right",
+										"size": "s",
+										"style": "colored",
+										"_margin": {
+											"unit": "px",
+											"top": "-60",
+											"right": "0",
+											"bottom": "0",
+											"left": "0",
+											"isLinked": false
+										},
+										"scroll_y": -80
+									},
+									"elements": [],
+									"isInner": false,
+									"widgetType": "xts_social_buttons",
+									"elType": "widget"
+								}
+							],
+							"isInner": false,
+							"elType": "column"
+						}
+					],
+					"isInner": false,
+					"elType": "section"
+				}
+			]
+		}
+	}
+}
