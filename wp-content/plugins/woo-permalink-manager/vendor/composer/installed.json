@@ -34,6 +34,10 @@
                 }
             ],
             "description": "Wordpress SDK for premmerce plugins",
+            "support": {
+                "issues": "https://github.com/Premmerce/wordpress-sdk/issues",
+                "source": "https://github.com/Premmerce/wordpress-sdk/tree/master"
+            },
             "install-path": "../premmerce/wordpress-sdk"
         }
     ],

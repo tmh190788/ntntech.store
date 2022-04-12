@@ -1,7 +1,6 @@
 <?php namespace Premmerce\UrlManager\Admin;
 
 use Premmerce\SDK\V2\FileManager\FileManager;
-use Premmerce\UrlManager\UrlManagerPlugin;
 
 class Settings {
 
@@ -19,7 +18,10 @@ class Settings {
 
 	const PERMALINK_WC_PRODUCT = 'product';
 
+
 	/**
+	 * FileManager
+	 *
 	 * @var FileManager
 	 */
 	private $fileManager;
@@ -45,8 +47,8 @@ class Settings {
 
 		add_settings_section('sku_link', __('SKU', 'premmerce-url-manager'), [
 		  $this,
-      'skuSection',
-    ], self::SETTINGS_PAGE);
+	  'skuSection',
+	], self::SETTINGS_PAGE);
 
 		add_settings_section( 'additional', __( 'Additional', 'premmerce-url-manager' ), [
 			$this,
@@ -59,11 +61,17 @@ class Settings {
 		], self::SETTINGS_PAGE );
 	}
 
+	/**
+	 * Get Main Settings Text
+	 *
+	 * @return void
+	 */
+	public static function getMainSettingsText() {
+		return __('WooCommerce Permalink Manager offers you the ability to create a custom URL structure for your permalinks. Custom URL structures can improve the aesthetics, usability, and forward-compatibility of your links. A number of settings are available, and here are some examples to get you started.', 'premmerce-url-manager');
+	}
+
 	public function show() {
-
-		wp_enqueue_script( 'input-mask.js', $this->fileManager->locateAsset( 'admin/js/input-mask.min.js' ), [ 'jquery' ], UrlManagerPlugin::VERSION );
-
-		print( '<form action="' . admin_url( 'options.php' ) . '" method="post">' );
+		print( '<form action="' . esc_url(admin_url( 'options.php' )) . '" method="post">' );
 
 		settings_errors();
 
@@ -73,6 +81,24 @@ class Settings {
 
 		submit_button();
 		print( '</form>' );
+	}
+
+	/**
+	 * Get Product Path For Sku
+	 *
+	 * @return void
+	 */
+	public function getProductPathForSku() {
+		$product = $this->getOption( 'product' );
+
+		switch ( $product ) {
+			case 'category_slug':
+				return '/category';
+			case 'hierarchical':
+				return 'parent-category/category';
+			default:
+				return '';
+		}
 	}
 
 	public function categorySection() {
@@ -89,8 +115,8 @@ class Settings {
 
 	public function skuSection() {
 		$this->fileManager->includeTemplate( 'admin/section/sku.php', [
-			'sku'     => $this->getOption( 'sku' ),
-      'product' => $this->getOption( 'product' ),
+			'sku'         => $this->getOption( 'sku' ),
+			'productPath' => $this->getProductPathForSku(),
 		] );
 	}
 
@@ -115,6 +141,12 @@ class Settings {
 		] );
 	}
 
+	/**
+	 * Update Settings
+	 *
+	 * @param  mixed $settings
+	 * @return void
+	 */
 	public function updateSettings( $settings ) {
 		$this->fixWPWCSettings( $settings );
 
@@ -125,18 +157,23 @@ class Settings {
 		return $settings;
 	}
 
-
+	/**
+	 * Fix WP WC Settings
+	 *
+	 * @param  mixed $options
+	 * @return void
+	 */
 	private function fixWPWCSettings( $options ) {
 
-		if ( $options['product'] || $options['category'] ) {
+		if ( isset($options['product']) && !empty($options['product']) || isset($options['category']) && !empty($options['category']) ) {
 			if ( ! get_option( 'permalink_structure' ) ) {
 				update_option( 'permalink_structure', self::PERMALINK_STRUCTURE );
 			};
 		}
 
-		if ( $options['product'] ) {
+		if ( isset($options['product']) && !empty($options['product']) ) {
 
-			if ( $options['product'] == 'slug' ) {
+			if ( 'slug' === $options['product']) {
 				$wc['product_base'] = self::PERMALINK_WC_PRODUCT;
 			}
 			if ( in_array( $options['product'], [ 'category_slug', 'hierarchical' ] ) ) {
@@ -145,10 +182,11 @@ class Settings {
 
 			update_option( 'woocommerce_permalinks', $wc );
 		}
-
 	}
 
 	/**
+	 * Get Option
+	 *
 	 * @param string $key
 	 * @param mixed|null $default
 	 *

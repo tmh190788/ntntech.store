@@ -1,9 +1,9 @@
 <?php
 
 if ( ! defined('WPINC')) {
-    die;
+	die;
 }
 
 if (function_exists('premmerce_wpm_fs')) {
-    premmerce_wpm_fs()->_pricing_page_render();
+	premmerce_wpm_fs()->_pricing_page_render();
 }

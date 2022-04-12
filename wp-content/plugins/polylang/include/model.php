@@ -80,19 +80,24 @@ class PLL_Model {
 	 */
 	public function get_languages_list( $args = array() ) {
 		if ( false === $languages = $this->cache->get( 'languages' ) ) {
+			$languages = array();
 
 			// Create the languages from taxonomies.
 			if ( ( defined( 'PLL_CACHE_LANGUAGES' ) && ! PLL_CACHE_LANGUAGES ) || false === ( $languages = get_transient( 'pll_languages_list' ) ) ) {
-				$languages = get_terms( 'language', array( 'hide_empty' => false, 'orderby' => 'term_group' ) );
-				$languages = empty( $languages ) || is_wp_error( $languages ) ? array() : $languages;
+				$languages = array();
+
+				$post_languages = get_terms( 'language', array( 'hide_empty' => false, 'orderby' => 'term_group' ) );
+				$post_languages = empty( $post_languages ) || is_wp_error( $post_languages ) ? array() : $post_languages;
 
 				$term_languages = get_terms( 'term_language', array( 'hide_empty' => false ) );
 				$term_languages = empty( $term_languages ) || is_wp_error( $term_languages ) ?
 					array() : array_combine( wp_list_pluck( $term_languages, 'slug' ), $term_languages );
 
-				if ( ! empty( $languages ) && ! empty( $term_languages ) ) {
-					foreach ( $languages as $k => $v ) {
-						$languages[ $k ] = new PLL_Language( $v, $term_languages[ 'pll_' . $v->slug ] );
+				if ( ! empty( $post_languages ) && ! empty( $term_languages ) ) {
+					foreach ( $post_languages as $k => $v ) {
+						if ( isset( $term_languages[ 'pll_' . $v->slug ] ) ) {
+							$languages[ $k ] = new PLL_Language( $v, $term_languages[ 'pll_' . $v->slug ] );
+						}
 					}
 
 					// We will need the languages list to allow its access in the filter below.
@@ -115,9 +120,6 @@ class PLL_Model {
 					 * @see https://wordpress.org/support/topic/fatal-error-pll_model_languages_list?replies=8#post-6782255
 					 */
 					set_transient( 'pll_languages_list', array_map( 'get_object_vars', $languages ) );
-				}
-				else {
-					$languages = array(); // In case something went wrong.
 				}
 			}
 
@@ -508,6 +510,8 @@ class PLL_Model {
 		$counts = wp_cache_get( $cache_key, 'counts' );
 
 		if ( false === $counts ) {
+			$counts = array();
+
 			$select = "SELECT pll_tr.term_taxonomy_id, COUNT( * ) AS num_posts FROM {$wpdb->posts}";
 			$join = $this->post->join_clause();
 			$where = sprintf( " WHERE post_status = '%s'", esc_sql( $q['post_status'] ) );

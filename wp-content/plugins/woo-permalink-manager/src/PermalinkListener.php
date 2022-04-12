@@ -28,12 +28,11 @@ class PermalinkListener
             'use_primary_category'     => !empty($options['use_primary_category']),
             'product'                  => ( isset( $options['product'] ) ? $options['product'] : '' ),
             'suffix'                   => ( !empty($options['suffix']) ? $options['suffix'] : false ),
-            'enable_suffix_categories' => isset( $options['enable_suffix_categories'] ),
-            'enable_suffix_products'   => isset( $options['enable_suffix_products'] ),
+            'enable_suffix_categories' => ( isset( $options['enable_suffix_categories'] ) && !empty($options['enable_suffix_categories']) ? true : false ),
+            'enable_suffix_products'   => ( isset( $options['enable_suffix_products'] ) && !empty($options['enable_suffix_products']) ? true : false ),
             'sku'                      => ( isset( $options['sku'] ) ? $options['sku'] : '' ),
         ];
         $this->taxonomyOptions['product_cat'] = ( isset( $options['category'] ) ? $options['category'] : '' );
-        #/premmerce_clear
     }
     
     /**
@@ -83,7 +82,6 @@ class PermalinkListener
     /**
      * Replace product permalink according to settings
      *
-     *
      * @param string $permalink
      * @param WP_Post $post
      *
@@ -91,7 +89,7 @@ class PermalinkListener
      */
     public function replaceProductLink( $permalink, $post )
     {
-        if ( $post->post_type !== self::WOO_PRODUCT ) {
+        if ( self::WOO_PRODUCT !== $post->post_type ) {
             return $permalink;
         }
         if ( !get_option( 'permalink_structure' ) ) {
@@ -315,7 +313,7 @@ class PermalinkListener
     
     private function isHierarchical( $type )
     {
-        return $type === 'hierarchical';
+        return 'hierarchical' === $type;
     }
     
     /**
@@ -352,8 +350,8 @@ class PermalinkListener
     protected function replaceSlugWithSku( $permalink, $postID )
     {
         $skuString = get_post_meta( $postID, '_sku', true );
-        if ( $skuString != '' ) {
-            if ( $this->options['sku'] == 'sku' ) {
+        if ( '' !== $skuString ) {
+            if ( 'sku' === $this->options['sku'] ) {
                 return str_replace( basename( $permalink ), $skuString, $permalink );
             }
         }

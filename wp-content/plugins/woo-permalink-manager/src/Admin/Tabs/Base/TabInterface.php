@@ -1,33 +1,34 @@
 <?php namespace Premmerce\UrlManager\Admin\Tabs\Base;
 
-interface TabInterface
-{
+interface TabInterface {
 
-    /**
-     * Register hooks
-     */
-    public function init();
 
-    /**
-     * Render tab content
-     */
-    public function render();
+	/**
+	 * Register hooks
+	 */
+	public function init();
 
-    /**
-     * Returns tab label
-     * @return string
-     */
-    public function getLabel();
+	/**
+	 * Render tab content
+	 */
+	public function render();
 
-    /**
-     * Returns unique tab name
-     */
-    public function getName();
+	/**
+	 * Returns tab label
+	 *
+	 * @return string
+	 */
+	public function getLabel();
 
-    /**
-     * Is tab valid to render
-     *
-     * @return bool
-     */
-    public function valid();
+	/**
+	 * Returns unique tab name
+	 */
+	public function getName();
+
+	/**
+	 * Is tab valid to render
+	 *
+	 * @return bool
+	 */
+	public function valid();
 }

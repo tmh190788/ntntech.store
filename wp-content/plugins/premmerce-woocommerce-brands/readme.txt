@@ -2,8 +2,8 @@
 Contributors: premmerce
 Tags: woocommerce brands, brands, product brands
 Requires at least: 4.8
-Tested up to: 5.6
-Stable tag: 1.2.11
+Tested up to: 5.9.1
+Stable tag: 1.2.12
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -51,8 +51,6 @@ Plus, you can create your personal demo store and test  this plugin together wit
 4. Displaying the page of a particular brand
 5. Displaying the page with all brands
 
-
-
 == Frequently Asked Questions ==
 
 = Documentation =
@@ -70,59 +68,85 @@ You can also install this plugin manually:
 
 == Changelog ==
 
-= 1.0 =
+= 1.2.12 =
 
-Release Date: Sep 05, 2017
+Release Date: Mar 23, 2023
 
-* Initial release
+* Update Freemius to 2.4.3
 
-= 1.0.1 =
+= 1.2.11 =
 
-Release Date: Sep 25, 2017
+Release Date: Dec 24, 2020
 
-* Fixed a bug with wrong translation domain
-* Updated FileManager
-* Added woocommerce as required dependency
+* Update Freemius to 2.4.1
 
-= 1.1 =
+= 1.2.10 =
 
-Release Date: Oct 18, 2017
+Release Date: Sep 24, 2019
 
-* Added freemius sdk
-* Added php 5.6 support
-* Added WooCommerce version check annotations
+* Updated WooCommerce compatibility version to 3.7
 
-= 1.1.1 =
+= 1.2.9 =
 
-Release Date: Nov 02, 2017
+Release Date: Jun 19, 2019
 
-* Added premmerce sdk
-* Added WordPress 4.8.3 support
-* Added WooCommerce 3.2.2 support
-* Added premmerce SDK
-* Updated freemius SDK
-* Updated translations
+* Update Freemius to 2.3.0
+* Update Premmerce SDK to 2.1
 
-= 1.1.2 =
+= 1.2.8 =
 
-Release Date: Nov 20, 2017
+Release Date: Apr 22, 2019
 
-* Added WordPress 4.9 support
-* Added WooCommerce 3.2.4 support
+* Updated WooCommerce compatibility version to 3.6
 
-= 1.1.3 =
+= 1.2.7 =
 
-Release Date: Dec 06, 2017
+Release Date: Apr 16, 2019
 
-* Added Premmerce version check
-* Added WordPress 4.9.1 support
-* Added WooCommerce 3.2.5 support
+* Shortcode fix
 
-= 1.1.4 =
+= 1.2.6 =
 
-Release Date: Jan 24, 2018
+Release Date: Mar 1, 2019
 
-* Updated freemius sdk
+* Security fix
+
+= 1.2.5 =
+
+Release Date: Feb 4, 2019
+
+* Updated freemius version to 2.2.3
+* Updated flush rules logic
+
+= 1.2.4 =
+
+Release Date: Nov 14, 2018
+
+* Updated freemius version to 2.1.3
+* Added WooCommerce 3.5 support
+
+= 1.2.3 =
+
+Release Date: Aug 23, 2018
+
+* Updated freemius SDk
+* Updated premmerce SDk
+
+= 1.2.2 =
+
+Release Date: Jul 19, 2018
+
+* Updated taxonomy prefix validation
+* Fixed admin notices
+* Updated freemius sdk to 2.1.2
+
+= 1.2.1 =
+
+Release Date: Jun 13, 2018
+
+* Fixed security issues
+* Added additional hooks
+* Updated freemius sdk to 2.1.1
 
 = 1.2 =
 
@@ -138,76 +162,56 @@ Release Date: Apr 19, 2018
 * Updated translations
 * Removed deprecations
 
-= 1.2.1 =
+= 1.1.4 =
 
-Release Date: Jun 13, 2018
+Release Date: Jan 24, 2018
 
-* Fixed security issues
-* Added additional hooks
-* Updated freemius sdk to 2.1.1
+* Updated freemius sdk
 
-= 1.2.2 =
+= 1.1.3 =
 
-Release Date: Jul 19, 2018
+Release Date: Dec 06, 2017
 
-* Updated taxonomy prefix validation
-* Fixed admin notices
-* Updated freemius sdk to 2.1.2
+* Added Premmerce version check
+* Added WordPress 4.9.1 support
+* Added WooCommerce 3.2.5 support
 
-= 1.2.3 =
+= 1.1.2 =
 
-Release Date: Aug 23, 2018
+Release Date: Nov 20, 2017
 
-* Updated freemius SDk
-* Updated premmerce SDk
+* Added WordPress 4.9 support
+* Added WooCommerce 3.2.4 support
 
-= 1.2.4 =
+= 1.1.1 =
 
-Release Date: Nov 14, 2018
+Release Date: Nov 02, 2017
 
-* Updated freemius version to 2.1.3
-* Added WooCommerce 3.5 support
+* Added premmerce sdk
+* Added WordPress 4.8.3 support
+* Added WooCommerce 3.2.2 support
+* Added premmerce SDK
+* Updated freemius SDK
+* Updated translations
 
-= 1.2.5 =
+= 1.1 =
 
-Release Date: Feb 4, 2019
+Release Date: Oct 18, 2017
 
-* Updated freemius version to 2.2.3
-* Updated flush rules logic
+* Added freemius sdk
+* Added php 5.6 support
+* Added WooCommerce version check annotations
 
-= 1.2.6 =
+= 1.0.1 =
 
-Release Date: Mar 1, 2019
+Release Date: Sep 25, 2017
 
-* Security fix
+* Fixed a bug with wrong translation domain
+* Updated FileManager
+* Added woocommerce as required dependency
 
-= 1.2.7 =
+= 1.0 =
 
-Release Date: Apr 16, 2019
+Release Date: Sep 05, 2017
 
-* Shortcode fix
-
-= 1.2.8 =
-
-Release Date: Apr 22, 2019
-
-* Updated WooCommerce compatibility version to 3.6
-
-= 1.2.9 =
-
-Release Date: Jun 19, 2019
-
-* Update Freemius to 2.3.0
-* Update Premmerce SDK to 2.1
-
-= 1.2.10 =
-
-Release Date: Sep 24, 2019
-
-* Updated WooCommerce compatibility version to 3.7
-
-= 1.2.11 =
-
-Release Date: Dec 24, 2020
-
-* Update Freemius to 2.4.1
+* Initial release

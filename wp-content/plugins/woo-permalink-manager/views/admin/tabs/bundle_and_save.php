@@ -1,8 +1,9 @@
 <?php
 
 if ( ! defined('WPINC')) {
-    die;
+	die;
 }
 
 ?>
-<?php $bundles->render(); ?>
+<?php 
+$bundles->render(); 

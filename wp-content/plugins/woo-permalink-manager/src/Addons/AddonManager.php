@@ -1,26 +1,28 @@
 <?php namespace Premmerce\UrlManager\Addons;
 
-class AddonManager
-{
+class AddonManager {
+
   /**
+	 * Get Addons
+	 *
    * @return string[]
    */
-  public function getAddons() {
-    return [
-      BreadcrumbsAddon::class,
-      YoastBreadcrumbsAddon::class
-    ];
-  }
+	public function getAddons() {
+	  return [
+		BreadcrumbsAddon::class,
+		YoastBreadcrumbsAddon::class
+	  ];
+	}
 
   /**
    * Init Addons
    */
-  public function initAddons() {
-    foreach ( $this->getAddons() as $addon ) {
-      $addon = new $addon;
-      if( $addon->isActive() ) {
-        $addon->init();
-      }
-    }
-  }
+	public function initAddons() {
+		foreach ( $this->getAddons() as $addon ) {
+		  $addon = new $addon();
+			if ( $addon->isActive() ) {
+				$addon->init();
+			}
+		}
+	}
 }

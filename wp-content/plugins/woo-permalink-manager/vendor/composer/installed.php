@@ -5,7 +5,7 @@
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'dc3b0963e4f4aa7c33a81e821001b301d4ff19a8',
+        'reference' => '0cacf3ffbcce738a59527f661a604355eebc055d',
         'name' => 'premmerce/woo-permalink-manager',
         'dev' => false,
     ),
@@ -16,7 +16,7 @@
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'dc3b0963e4f4aa7c33a81e821001b301d4ff19a8',
+            'reference' => '0cacf3ffbcce738a59527f661a604355eebc055d',
             'dev_requirement' => false,
         ),
         'premmerce/wordpress-sdk' => array(

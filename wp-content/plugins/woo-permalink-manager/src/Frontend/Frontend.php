@@ -16,6 +16,7 @@ class Frontend
     const  WOO_CATEGORY = 'product_cat' ;
     /**
      * Options
+     *
      * @var array
      */
     protected  $options = array() ;
@@ -32,7 +33,6 @@ class Frontend
         if ( !empty($options['canonical']) ) {
             add_action( 'wp_head', [ $this, 'addCanonical' ] );
         }
-        #/premmerce_clear
         $isGetParamUrlFormat = apply_filters( 'wpml_setting', 0, 'language_negotiation_type' ) == '3';
         if ( class_exists( 'SitePress' ) && $isGetParamUrlFormat ) {
             add_filter( 'icl_ls_languages', [ $this, 'modifyWpmlLanguageSwitcher' ], 20 );
@@ -86,27 +86,25 @@ class Frontend
             $slug = array_pop( $url );
             $replace = [];
             
-            if ( $slug === 'feed' ) {
+            if ( 'feed' === $slug ) {
                 $replace['feed'] = $slug;
                 $slug = array_pop( $url );
             }
             
             
-            if ( $slug === 'amp' ) {
+            if ( 'amp' === $slug ) {
                 $replace['amp'] = $slug;
                 $slug = array_pop( $url );
             }
             
             $commentsPosition = strpos( $slug, 'comment-page-' );
             
-            if ( $commentsPosition === 0 ) {
+            if ( 0 === $commentsPosition ) {
                 $replace['cpage'] = substr( $slug, strlen( 'comment-page-' ) );
                 $slug = array_pop( $url );
             }
             
-            $sql = "SELECT COUNT(ID) as count_id FROM {$wpdb->posts} WHERE post_name = %s AND post_type = %s";
-            $query = $wpdb->prepare( $sql, [ $slug, self::WOO_PRODUCT ] );
-            $num = intval( $wpdb->get_var( $query ) );
+            $num = intval( $wpdb->get_var( $wpdb->prepare( "SELECT COUNT(ID) as count_id FROM {$wpdb->posts} WHERE post_name = %s AND post_type = %s", [ $slug, self::WOO_PRODUCT ] ) ) );
             
             if ( $num > 0 ) {
                 $replace['page'] = '';
@@ -124,7 +122,7 @@ class Frontend
     protected function removeSuffix( $url, $suffix )
     {
         $length = mb_strlen( $suffix );
-        if ( $length == 0 ) {
+        if ( 0 === (int) $length ) {
             return true;
         }
         // Ends with
@@ -186,13 +184,11 @@ class Frontend
     protected function findSlugBySku( $sku )
     {
         global  $wpdb ;
-        $sql = "SELECT post_id FROM {$wpdb->postmeta} WHERE meta_value = %s AND meta_key = '_sku'";
-        $query = $wpdb->prepare( $sql, [ $sku ] );
-        $skuId = $wpdb->get_row( $query, ARRAY_A );
+        $skuId = $wpdb->get_row( $wpdb->prepare( "SELECT post_id FROM {$wpdb->postmeta} WHERE meta_value = %s AND meta_key = '_sku'", [ $sku ] ), ARRAY_A );
         
         if ( isset( $skuId['post_id'] ) ) {
             $postSlug = get_post_field( 'post_name', $skuId['post_id'] );
-            if ( $postSlug != '' ) {
+            if ( '' !== $postSlug ) {
                 return $postSlug;
             }
         }

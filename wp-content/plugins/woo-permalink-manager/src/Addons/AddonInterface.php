@@ -1,14 +1,14 @@
 <?php namespace Premmerce\UrlManager\Addons;
 
-interface AddonInterface
-{
+interface AddonInterface {
+
   /**
    * Check if addon is active
    */
-  public function isActive();
+	public function isActive();
 
   /**
    * Innit addon
    */
-  public function init();
+	public function init();
 }
