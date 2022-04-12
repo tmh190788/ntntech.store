@@ -1,0 +1,198 @@
+
+/* DROPDOWN ALIGN BOTTOM IN TOP BAR */
+
+.xts-top-bar.xts-dropdowns-align-bottom .xts-dropdown {
+	margin-top: 0px;
+}
+
+.xts-top-bar.xts-dropdowns-align-bottom .xts-dropdown:after {
+	height: 10px;
+}
+
+
+
+/* DROPDOWN ALIGN BOTTOM IN HEADER BOTTOM */
+
+.xts-header-bottom.xts-dropdowns-align-bottom .xts-dropdown {
+	margin-top: 8px;
+}
+
+.xts-header-bottom.xts-dropdowns-align-bottom .xts-dropdown:after {
+	height: 18px;
+}
+
+
+
+@media (min-width: 1025px) {
+
+	/* HEIGHT OF ROWS ON HEADER */
+
+	.xts-top-bar .xts-header-row-inner {
+		height: 40px;
+	}
+
+	.xts-general-header .xts-header-row-inner {
+		height: 100px;
+	}
+
+	.xts-header-bottom .xts-header-row-inner {
+		height: 56px;
+	}
+
+	/* HEIGHT OF ROWS WHEN HEADER IS STICKY */
+
+	.xts-sticky-real.xts-sticked .xts-top-bar .xts-header-row-inner {
+		height: 0px;
+	}
+
+	.xts-sticky-real.xts-sticked .xts-general-header .xts-header-row-inner {
+		height: 0px;
+	}
+
+	.xts-sticky-real.xts-sticked .xts-header-bottom .xts-header-row-inner {
+		height: 0px;
+	}
+
+	/* HEIGHT OF HEADER CLONE */
+
+	.xts-header-clone .xts-header-row-inner {
+		height: 90px;
+	}
+
+	/* HEIGHT OF PAGE TITLE WHEN HEADER IS OVER CONTENT */
+
+	.xts-header-overlap .xts-page-title.xts-size-xs {
+		padding-top: 206px;
+	}
+
+	.xts-header-overlap .xts-page-title.xts-size-s {
+		padding-top: 216px;
+	}
+
+	.xts-header-overlap .xts-page-title.xts-size-m {
+		padding-top: 236px;
+	}
+
+	.xts-header-overlap .xts-page-title.xts-size-l {
+		padding-top: 276px;
+	}
+
+	.xts-header-overlap .xts-page-title.xts-size-xl {
+		padding-top: 306px;
+	}
+
+	.xts-header-overlap .xts-page-title.xts-size-xxl {
+		padding-top: 396px;
+	}
+
+	/* HEIGHT OF HEADER BUILDER ELEMENTS */
+
+	/* HEIGHT ELEMENTS IN TOP BAR */
+
+	.xts-top-bar .xts-logo img {
+		max-height: 40px;
+	}
+
+	.xts-sticked .xts-top-bar .xts-logo img {
+		max-height: 0px;
+	}
+
+	/* HEIGHT ELEMENTS IN GENERAL HEADER */
+
+	.xts-general-header .xts-logo img {
+		max-height: 100px;
+	}
+
+	.xts-sticked .xts-general-header .xts-logo img {
+		max-height: 0px;
+	}
+
+	/* HEIGHT ELEMENTS IN BOTTOM HEADER */
+
+	.xts-header-bottom .xts-logo img {
+		max-height: 56px;
+	}
+
+	.xts-sticked .xts-header-bottom .xts-logo img {
+		max-height: 0px;
+	}
+
+	/* HEIGHT ELEMENTS IN HEADER CLONE */
+
+	.xts-header-clone .xts-general-header .xts-logo img {
+		max-height: 90px;
+	}
+}
+
+@media (max-width: 1024px) {
+
+	/* HEIGHT OF ROWS ON HEADER */
+
+	.xts-top-bar .xts-header-row-inner {
+		height: 0px;
+	}
+
+	.xts-general-header .xts-header-row-inner {
+		height: 60px;
+	}
+
+	.xts-header-bottom .xts-header-row-inner {
+		height: 0px;
+	}
+
+	/* HEADER OVER CONTENT */
+
+	.xts-header-overlap .xts-page-title {
+		padding-top: 80px;
+	}
+
+	/* HEIGHT ELEMENTS IN TOP BAR */
+
+	.xts-top-bar .xts-logo img {
+		max-height: 0px;
+	}
+
+	/* HEIGHT ELEMENTS IN GENERAL HEADER */
+
+	.xts-general-header .xts-logo img {
+		max-height: 60px;
+	}
+
+	/* HEIGHT ELEMENTS IN BOTTOM HEADER */
+
+	.xts-header-bottom .xts-logo img {
+		max-height: 0px;
+	}
+}
+.xts-close-side.xts-location-header {
+	top: 196px;
+}
+.admin-bar .xts-close-side.xts-location-header {
+	top: 228px;
+}
+.xts-close-side.xts-location-sticky-header {
+	top: 90px;
+}
+.admin-bar .xts-close-side.xts-location-sticky-header {
+	top: 122px;
+}
+		
+.xts-top-bar {
+	border-color: rgba(237, 237, 237, 1);border-bottom-width: 1px;border-style: solid;
+}
+
+.xts-general-header {
+	border-color: rgba(237, 237, 237, 1);border-bottom-width: 1px;border-style: solid;
+}
+
+.xts-hmhbze0if50yzpj1lcdk .xts-header-cats-title {
+	
+}
+
+.xts-hmhbze0if50yzpj1lcdk {
+	border-style: solid;
+}
+
+.xts-header-bottom {
+	background-color: rgba(36, 36, 36, 1);border-style: solid;
+}
