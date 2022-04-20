@@ -1,0 +1,10 @@
+2022-04-19T17:27:04+00:00 CRITICAL Uncaught Error: Call to a member function get_all() on null in /home/phugiasa/ntntech.store/wp-content/themes/xts-hitek/framework/modules/wc-wishlist/class-ui.php:117
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/themes/xts-hitek/framework/modules/wc-wishlist/templates/page.php(32): XTS\WC_Wishlist\Ui->wishlist_page_content()
+#1 /home/phugiasa/ntntech.store/wp-content/themes/xts-hitek/framework/includes/helpers.php(2021): include('/home/phugiasa/...')
+#2 /home/phugiasa/ntntech.store/wp-content/themes/xts-hitek/framework/modules/wc-wishlist/class-ui.php(98): xts_get_template('page.php', Array, 'wc-wishlist')
+#3 /home/phugiasa/ntntech.store/wp-includes/shortcodes.php(356): XTS\WC_Wishlist\Ui->wishlist_page('', '', 'xts_wishlist')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/phugiasa/ntntech.store/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(xts_wi...', 'do_shortcode_ta...', '[xts_wishlist]\n')
+#6 /home/phugiasa/ntntech.store/wp-includes/class-wp-hook.php(307): do_shor in /home/phugiasa/ntntech.store/wp-content/themes/xts-hitek/framework/modules/wc-wishlist/class-ui.php on line 117
+

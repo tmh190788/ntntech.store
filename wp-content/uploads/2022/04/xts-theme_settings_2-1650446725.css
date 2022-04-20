@@ -1,0 +1,208 @@
+.xts-footer{
+	background-color:#1e73be;
+}
+
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.xts-textfont-content{
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+legend, th, h1, h2, h3, h4, h5, h6, .title, .widget_block.widget_search .wp-block-search__label, .xts-anim-text, .xts-size-guide-table tr:first-child td, .woocommerce-thankyou-order-received, .woocommerce-Reviews .comment-reply-title{
+	font-family: "Asap", Arial, Helvetica, sans-serif;
+}
+
+.xts-textfont-title{
+	font-family: "Asap", Arial, Helvetica, sans-serif;
+}
+
+.xts-entities-title, .widget_recent_comments li > a, .widget_recent_entries a, .widget_rss li > a, .wp-block-latest-comments .wp-block-latest-comments__comment-link, .wp-block-latest-posts__list li a, .xts-single-post .xts-post-url-text, table .product-name a, .product_list_widget .product-title, .product_title{
+	font-family: "Asap", Arial, Helvetica, sans-serif;color: #333333;
+}
+
+a.xts-entities-title{
+	color: #333333;
+}
+
+a.xts-entities-title:hover, .xts-entities-title a:hover, .xts-page-nav-btn:hover .xts-page-nav-title, .widget_recent_comments li > a:hover, .widget_recent_entries a:hover, .widget_rss li > a:hover, .wp-block-latest-comments .wp-block-latest-comments__comment-link:hover, .wp-block-latest-posts__list li a:hover, table .product-name a:hover, .product_list_widget .product-title:hover, .product_title a:hover{
+	color: #439665;
+}
+
+.xts-nav-main > li > a{
+	font-family: "Asap", Arial, Helvetica, sans-serif;font-weight: 500;
+}
+
+.widget-title{
+	font-family: "Asap", Arial, Helvetica, sans-serif;
+}
+
+.xts-nav-secondary > li > a{
+	font-weight: 500;font-size: 12px;
+}
+
+.xts-header-el .xts-header-el-label{
+	font-family: "Asap", Arial, Helvetica, sans-serif;font-weight: 500;
+}
+
+.title.xts-textcolor-primary, .xts-list-style-icons li:before, .xts-textcolor-primary, .xts-scheme-light .xts-textcolor-primary, .xts-scheme-dark .xts-textcolor-primary, .xts-post .xts-button-icon i:before, .xts-box-icon, .xts-button.xts-color-primary.xts-style-bordered, .xts-button.xts-color-primary.xts-style-bordered:hover, .xts-button.xts-color-primary.xts-style-link-3, .xts-button.xts-color-primary.xts-style-link-3:hover, .xts-plan-features i, .xts-price-plan.xts-scheme-hover-dark:hover .xts-plan-features li i, .xts-plan-icon, .xts-el-video-play-btn, .xts-el-video.xts-action-play .xts-el-video-btn:hover .xts-el-video-play-btn, .xts-el-video.xts-action-overlay:hover .xts-el-video-play-btn, .xts-circle-meter-value, .xts-404-content > span, .xts-no-results-title, .elementor-element u, .xts-product-label.xts-onsale, span.amount, .xts-header-cart.xts-design-round .xts-header-el-icon, .xts-header-compare.xts-design-round .xts-header-el-icon, .xts-header-wishlist.xts-design-round .xts-header-el-icon, a.xts-login-to-price-msg:hover, .xts-account-links a:hover:before, .woocommerce-form-login-toggle .woocommerce-info a, .woocommerce-form-coupon-toggle .woocommerce-info a, .woocommerce-privacy-policy-link, .woocommerce-terms-and-conditions-link, .woocommerce-privacy-policy-link:hover, .woocommerce-terms-and-conditions-link:hover, .woocommerce-MyAccount-navigation ul li.is-active a, .woocommerce-MyAccount-navigation ul li:hover a, .xts-login-extra a, .xts-login-extra a:hover{
+	color:#005eb8;
+}
+
+.xts-bgcolor-primary, .xts-nav-label.xts-color-primary, .xts-nav.xts-style-underline > li > a .xts-nav-text:after, nav[class*="-pagination"] li .page-numbers.current, .widget_calendar #today, .xts-hint:before, .xts-tags-list > a:hover:before, .tagcloud > a:hover:before, .wp-block-calendar #today, .xts-single-post .xts-post-quote, .xts-single-post .xts-post-url, .xts-post.xts-format-design-mask, .xts-post-label, .xts-post-controls, .xts-project-categories li, .xts-section-title.xts-design-simple .xts-section-title-divider:after, .xts-social-buttons.xts-style-simple a:hover, .xts-countdown-timer.xts-bg-color-primary .xts-countdown-item, .xts-timeline-dot, .xts-spot-icon.xts-style-default:before, .xts-scroll-to-top:hover, .elementor-progress-bar, body .select2-container--default .select2-results__option--highlighted[aria-selected], body .select2-container--default .select2-results__option--highlighted[data-selected], div.quantity button:hover, .xts-spb-progress-line, .widget_price_filter .ui-slider-range, .widget_price_filter .ui-slider-handle:after, .widget_layered_nav > ul li.chosen a:before, .xts-widget-stock-status li a.xts-selected:before, .xts-header-cart.xts-design-round .xts-header-el-icon:after, .xts-header-compare.xts-design-round .xts-header-el-icon:after, .xts-header-wishlist.xts-design-round .xts-header-el-icon:after, .xts-sticky-navbar .xts-navbar-count, .xts-header-cart.xts-design-round-bordered .xts-header-el-icon > span, .xts-header-compare.xts-design-round-bordered .xts-header-el-icon > span, .xts-header-wishlist.xts-design-round-bordered .xts-header-el-icon > span, .xts-header-cart.xts-design-round .xts-header-el-icon > span, .xts-header-compare.xts-design-round .xts-header-el-icon > span, .xts-header-wishlist.xts-design-round .xts-header-el-icon > span, .xts-header-cart.xts-design-count .xts-cart-count, .xts-header-compare.xts-design-count .xts-compare-count, .xts-header-wishlist.xts-design-count .xts-wishlist-count, .xts-header-cart.xts-design-count-alt .xts-cart-count, .xts-header-compare.xts-design-count-alt .xts-compare-count, .xts-header-wishlist.xts-design-count-alt .xts-wishlist-count, .woocommerce-store-notice, .xts-size-guide-table tr:not(:first-child) td:hover, .xts-sticky-cats-title, .xts-prod-design-summary-alt .xts-product:hover .xts-add-cart-btn > a, .xts-prod-design-icons-alt .xts-product:hover .xts-add-cart-btn > a{
+	background-color:#005eb8;
+}
+
+blockquote, .xts-comments-area .comment-reply-link, .xts-comments-area #cancel-comment-reply-link, .xts-comments-area .comment-reply-link:hover, .xts-comments-area #cancel-comment-reply-link:hover, .xts-tags-list > a:hover, .tagcloud > a:hover, .wp-block-pullquote:not(.is-style-solid-color), .xts-button.xts-color-primary.xts-style-bordered, .xts-button.xts-color-primary.xts-style-bordered:hover, .xts-button.xts-color-primary.xts-style-link, .xts-button.xts-color-primary.xts-style-link:hover, .xts-section-title.xts-design-underline .xts-section-title-text, .widget_layered_nav > ul li a:hover:before, .xts-widget-stock-status li a:hover:before, .widget_layered_nav > ul li.chosen a:before, .xts-widget-stock-status li a.xts-selected:before, .xts-tabs-header.xts-design-by-sides-2 .xts-tabs-title-wrapper, .xts-account-links a:hover, .cart_totals, .cart_totals .shipping-calculator-button, .cart_totals .shipping-calculator-button:hover, .xts-checkout-order-review, .xts-clear-filters-btn, .xts-clear-filters-btn:hover, .woocommerce-MyAccount-navigation ul li.is-active a, .woocommerce-MyAccount-navigation ul li:hover a{
+	border-color:#005eb8;
+}
+
+.searchform .searchsubmit, .comment-form input[type="submit"], .wp-block-search .wp-block-search__button, .xts-button.xts-color-primary, .xts-cookies-accept-btn, .wpcf7 [type="submit"], .mc4wp-form [type="submit"], .woocommerce-widget-layered-nav-dropdown__submit, .widget_price_filter .price_slider_amount .button, .woocommerce-mini-cart__buttons .checkout, .xts-cart-actions .button[name="apply_coupon"], .cart_totals .checkout-button, .shipping-calculator-form .button, .checkout_coupon .button, #place_order, .woocommerce-orders-table__cell-order-actions > a, .woocommerce-MyAccount-downloads-file, button[name=save_account_details], button[name=save_address], .woocommerce-form-login button, .woocommerce-form-register button, .lost_reset_password button, .xts-compare-table .button, .return-to-shop .button, .xts-product-add-btn > a, .single_add_to_cart_button{
+	background-color:#005eb8;
+}
+.searchform .searchsubmit:hover, .comment-form input[type="submit"]:hover, .wp-block-search .wp-block-search__button:hover, .xts-button.xts-color-primary:hover, .xts-cookies-accept-btn:hover, .wpcf7 [type="submit"]:hover, .mc4wp-form [type="submit"]:hover, .woocommerce-widget-layered-nav-dropdown__submit:hover, .widget_price_filter .price_slider_amount .button:hover, .woocommerce-mini-cart__buttons .checkout:hover, .xts-cart-actions .button[name="apply_coupon"]:hover, .cart_totals .checkout-button:hover, .shipping-calculator-form .button:hover, .checkout_coupon .button:hover, #place_order:hover, .woocommerce-orders-table__cell-order-actions > a:hover, .woocommerce-MyAccount-downloads-file:hover, button[name=save_account_details]:hover, button[name=save_address]:hover, .woocommerce-form-login button:hover, .woocommerce-form-register button:hover, .lost_reset_password button:hover, .xts-compare-table .button:hover, .return-to-shop .button:hover, .xts-product-add-btn > a:hover, .single_add_to_cart_button:hover{
+	background-color:rgba(0, 87, 171, 1);
+}
+
+.title.xts-textcolor-secondary, .xts-textcolor-secondary, .xts-scheme-light .xts-textcolor-secondary, .xts-scheme-dark .xts-textcolor-secondary, .xts-button.xts-color-secondary.xts-style-bordered, .xts-button.xts-color-secondary.xts-style-bordered:hover, .xts-button.xts-color-secondary.xts-style-link-3, .xts-button.xts-color-secondary.xts-style-link-3:hover{
+	color:#3a7bb7;
+}
+
+.xts-bgcolor-secondary, .xts-nav-label.xts-color-secondary, .xts-countdown-timer.xts-bg-color-secondary .xts-countdown-item{
+	background-color:#3a7bb7;
+}
+
+.xts-button.xts-color-secondary.xts-style-bordered, .xts-button.xts-color-secondary.xts-style-bordered:hover, .xts-button.xts-color-secondary.xts-style-link, .xts-button.xts-color-secondary.xts-style-link:hover{
+	border-color:#3a7bb7;
+}
+
+.xts-button.xts-color-secondary{
+	background-color:#3a7bb7;
+}
+.xts-button.xts-color-secondary:hover{
+	background-color:rgba(54, 114, 170, 1);
+}
+
+.xts-header-banner-bg{
+	background-color:#439665;
+}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "font-icon";
+	src: url("//localhost/ntntech.store/wp-content/themes/xts-hitek/fonts/font-icon.woff") format("woff"),
+	url("//localhost/ntntech.store/wp-content/themes/xts-hitek/fonts/font-icon.woff2") format("woff2");
+}
+
+.container {
+	max-width: 1200px;
+}
+
+.xts-dropdown-menu.xts-style-container {
+	max-width: 1170px;
+}
+
+.elementor-section.xts-section-stretch > .elementor-column-gap-no {
+	max-width: 1170px;
+}
+
+.elementor-section.xts-section-stretch > .elementor-column-gap-narrow {
+	max-width: 1180px;
+}
+
+.elementor-section.xts-section-stretch > .elementor-column-gap-default {
+	max-width: 1190px;
+}
+
+.elementor-section.xts-section-stretch > .elementor-column-gap-extended {
+	max-width: 1200px;
+}
+
+.elementor-section.xts-section-stretch > .elementor-column-gap-wide {
+	max-width: 1210px;
+}
+
+.elementor-section.xts-section-stretch > .elementor-column-gap-wider {
+	max-width: 1230px;
+}
+
+@media (min-width: 1217px) {
+	.platform-Windows .xts-section-stretch > .elementor-container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (min-width: 1200px) {
+	html:not(.platform-Windows) .xts-section-stretch > .elementor-container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/* Header banner */
+.xts-header-banner.xts-display,
+.xts-header-banner-bg,
+.xts-header-banner-content,
+.xts-header-banner-close {
+	height: 40px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) and (min-width: 768px) {
+/* Header banner */
+.xts-header-banner.xts-display,
+.xts-header-banner-bg,
+.xts-header-banner-content,
+.xts-header-banner-close {
+	height: 40px;
+}
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+/* Header banner */
+.xts-header-banner.xts-display,
+.xts-header-banner-bg,
+.xts-header-banner-content,
+.xts-header-banner-close {
+	height: 70px;
+}
+}
+
+/* Mobile small */
+@media (max-width: 575px) {
+/* Header banner */
+.xts-header-banner.xts-display,
+.xts-header-banner-bg,
+.xts-header-banner-content,
+.xts-header-banner-close {
+	height: 70px;
+}
+}
+
+/* Quick view */
+.xts-quick-view-popup {
+	max-width: 920px;
+}
+
+/* Promo popup */
+.xts-promo-popup {
+	max-width: 800px;
+}
+
+/* Blog single content boxed */
+	.xts-content-area.col-lg-12 .xts-single-post-boxed {
+		max-width: 900px;
+	}
+
+/* Header Boxed */
+.xts-header.xts-design-boxed:not(.xts-full-width) .xts-header-main {
+	max-width: 1170px;
+}
+
+.xts-widget-filter .xts-scroll-content {
+	max-height: 200px;
+}

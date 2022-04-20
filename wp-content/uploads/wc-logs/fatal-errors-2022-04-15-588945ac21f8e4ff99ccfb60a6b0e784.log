@@ -1,0 +1,78 @@
+2022-04-15T07:09:28+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 444 and defined in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php:582
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(444): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(349): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 582
+
+2022-04-15T07:10:02+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 444 and defined in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php:582
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(444): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(349): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 582
+
+2022-04-15T07:10:37+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 444 and defined in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php:582
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(444): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(349): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 582
+
+2022-04-15T07:11:12+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 444 and defined in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php:582
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(444): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(349): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 582
+
+2022-04-15T07:11:41+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 444 and defined in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php:582
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(444): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(349): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 582
+
+2022-04-15T07:13:03+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 444 and defined in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php:582
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(444): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(349): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 582
+
+2022-04-15T07:13:40+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 444 and defined in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php:582
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(444): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(349): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 582
+
+2022-04-15T07:14:05+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 444 and defined in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php:582
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(444): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(349): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 582
+
+2022-04-15T07:14:56+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 444 and defined in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php:582
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(444): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(349): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 582
+
+2022-04-15T07:15:29+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 444 and defined in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php:582
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(444): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(349): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 582
+
+2022-04-15T07:15:56+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 444 and defined in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php:582
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(444): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(349): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 582
+
+2022-04-15T07:16:43+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 444 and defined in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php:582
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(444): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(349): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 582
+
+2022-04-15T07:17:06+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore::get_attribute_taxonomies() must be an instance of WC_Product, bool given, called in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 444 and defined in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php:582
+Stack trace:
+#0 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(444): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->get_attribute_taxonomies(false)
+#1 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php(349): Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->create_data_for_variation(Object(WC_Product_Variation))
+#2 /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce in /home/phugiasa/ntntech.store/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/LookupDataStore.php on line 582
+
