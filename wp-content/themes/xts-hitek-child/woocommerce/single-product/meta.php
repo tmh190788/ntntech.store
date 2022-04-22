@@ -35,17 +35,22 @@ if (!empty($terms)) {
 		}
 	}
 }
+$terms_brand = get_the_terms( $product->get_id(), 'product_brand' );
+if (!empty($terms_brand)) {
+	foreach ( $terms_brand as $term_brand ){
+		if ( $term_brand->parent == 0 ) {
+			$brand_name=  $term_brand->name;
+			$brand_slug= $term_brand->slug;
+		}
+	}  
+}
 ?>
 
 <?php
 	if ($is_stock_list) :
 ?>
 <div class="stocklist-wrapper">
-	<div class="stocklist-info product_meta">
-		<div><span class="xts-label">Model: </span><?= get_field('model') ?></div>
-		<div><span class="xts-label">Maker: </span><a href="<?=$stock_list_url?>?keyword=<?=get_field('maker')?>&filter=maker"><?= get_field('maker') ?></a></div>
-		<div><span class="xts-label">Description: </span><a href="<?=$stock_list_url?>?keyword=<?=get_field('description')?>&filter=description"><?= get_field('description') ?></a></div>
-	</div>
+	
 	<div class="stocklist-buttons row">
 		<?php if (!empty(get_field('download_catalog'))) : ?>
 			<div class="col-md-4 col-12">
@@ -60,6 +65,11 @@ if (!empty($terms)) {
 		<div class="col-md-4 col-12">
 			<a href="#" class="stocklist-btn request"><i class="fas fa-envelope"></i> Request A Quote</a>
 		</div>
+	</div>
+	<div class="stocklist-info product_meta">
+		<div><span class="xts-label">Model: </span><a href="<?=$stock_list_url?>?keyword=<?= get_field('model') ?>&filter=model"><?= get_field('model') ?></a></div>
+		<!-- <div><span class="xts-label">Maker: </span><a href="<?=$stock_list_url?>?keyword=<?=get_field('maker')?>&filter=maker"><?= get_field('maker') ?></a></div> -->
+		<div><span class="xts-label">Description: </span><a href="<?=$stock_list_url?>?keyword=<?=get_field('description')?>&filter=description"><?= get_field('description') ?></a></div>
 	</div>
 </div>
 

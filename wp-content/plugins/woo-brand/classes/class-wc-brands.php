@@ -485,7 +485,7 @@ class pw_woocommerc_brans_Wc_Brands
                     $terms = get_the_terms($post->ID, $get_terms);
                     if ($terms) {
                         if (get_option('pw_woocommerce_brands_text_single') != "yes")
-                            echo $tax;
+                            echo "<b>".$tax."</b>";
                         echo '<div class="wb-single-img-cnt" >';
                         foreach ($terms as $term) {
                             $url = "";
@@ -511,9 +511,9 @@ class pw_woocommerc_brans_Wc_Brands
                                 //$image = wp_get_attachment_thumb_url( $thumbnail );
                                 $image = current(wp_get_attachment_image_src($thumbnail, 'full'));
                                 if ($url != "") {
-                                    echo '<a href="' . $url . '"><img src="' . $image . '"  alt="' . $term->name . '" style="width:' . $width . 'px;height:' . $height . 'px" /></a>';
+                                    echo '<a href="' . $url . '"><img src="' . $image . '"  alt="' . $term->name . '" style="max-height:' . $height . 'px" /></a>';
                                 } else {
-                                    echo '<a href="' . home_url() . '/?' . $get_terms . '=' . esc_html($term->slug) . '"><img src="' . $image . '"  alt="' . $labels->name . '" style="width:' . $width . 'px;height:' . $height . 'px" /></a>';
+                                    echo '<a href="' . home_url() . '/?' . $get_terms . '=' . esc_html($term->slug) . '"><img src="' . $image . '"  alt="' . $labels->name . '" style="max-height:' . $height . 'px" /></a>';
                                 }
                             }
                         }

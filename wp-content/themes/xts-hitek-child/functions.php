@@ -167,3 +167,9 @@ $translated = str_ireplace( array_keys($text), $text, $translated );
 return $translated;
 }
 add_filter( 'gettext', 'ra_change_translate_text_multiple', 20 );
+
+
+function wpb_custom_new_menu() {
+  register_nav_menu('header-categories',__( 'Header Categories' ));
+}
+add_action( 'init', 'wpb_custom_new_menu' );

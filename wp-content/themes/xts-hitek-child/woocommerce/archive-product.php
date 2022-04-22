@@ -87,7 +87,7 @@ do_action( 'woocommerce_before_main_content' );
 	<div class="col-lg-3 col-md-12">
 		<select name="filter">
 			<option value="model">Model</option>
-			<option value="maker">Maker</option>
+			<!-- <option value="maker">Maker</option> -->
 			<option value="description">Description</option>
 		</select>
 	</div>

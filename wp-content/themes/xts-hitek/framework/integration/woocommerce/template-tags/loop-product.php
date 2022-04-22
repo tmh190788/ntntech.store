@@ -153,6 +153,17 @@ if ( ! function_exists( 'xts_grid_categories_template' ) ) {
             }
           }
         }
+
+		$terms_brand = get_the_terms( $product->get_id(), 'product_brand' );
+		if (!empty($terms_brand)) {
+			foreach ( $terms_brand as $term_brand ){
+				if ( $term_brand->parent == 0 ) {
+					$brand_name=  $term_brand->name;
+					$brand_slug= $term_brand->slug;
+				}
+			}  
+			$brand_link=get_term_link($term_brand->slug, 'product_brand');
+		}
       ?>
 		<div class="xts-product-categories xts-product-meta <?=$is_stock_list ? 'stocklist-product' : ''?>">
 			<?php
@@ -161,8 +172,9 @@ if ( ! function_exists( 'xts_grid_categories_template' ) ) {
         } else {
 					// ?keyword=bear&filter=description
       ?>
-        <div class="stocklist-info">Maker: <a href="<?=$stock_list_url?>?keyword=<?= get_field('maker') ?>&filter=maker"><?= get_field('maker') ?></a></div>
-        <div class="stocklist-info">Model: <a href="<?=$stock_list_url?>?keyword=<?= get_field('model') ?>&filter=model"><?= get_field('model') ?></a></div>
+        <!-- <div class="stocklist-info">Maker: <a href="<?=$stock_list_url?>?keyword=<?= get_field('maker') ?>&filter=maker"><?= get_field('maker') ?></a></div> -->
+		<div class="stocklist-info">Model: <a href="<?=$stock_list_url?>?keyword=<?= get_field('model') ?>&filter=model"><?= get_field('model') ?></a></div>
+		<div class="stocklist-info">Maker:  <a href="<?=$brand_link?>"><?= $brand_name ?></a></div>
         <div class="stocklist-info">Description: <a href="<?=$stock_list_url?>?keyword=<?=get_field('description')?>&filter=description"><?=get_field('description')?></a></div>
       <?php
         }

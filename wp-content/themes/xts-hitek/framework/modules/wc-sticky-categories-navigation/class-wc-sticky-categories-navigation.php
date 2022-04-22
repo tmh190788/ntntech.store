@@ -57,26 +57,14 @@ class WC_Sticky_Categories_Navigation extends Module {
 				</div>
 
 				<?php
-				if(get_locale() == "en_US"){
 					wp_nav_menu(
 						array(
-							'menu'       => xts_get_opt( 'sticky_categories_navigation_menu_en' ),
+							'menu'       => xts_get_opt( 'header-categories' ),
 							'menu_class' => 'menu xts-nav xts-nav-sticky-cat xts-style-separated xts-direction-v',
 							'container'  => '',
 							'walker'     => new Walker( 'default' ),
 						)
 					);
-				}else if(get_locale() == "vi"){
-					wp_nav_menu(
-						array(
-							'menu'       => xts_get_opt( 'sticky_categories_navigation_menu' ),
-							'menu_class' => 'menu xts-nav xts-nav-sticky-cat xts-style-separated xts-direction-v',
-							'container'  => '',
-							'walker'     => new Walker( 'default' ),
-						)
-					);
-				}
-				
 				?>
 
 				<?php if ( xts_get_opt( 'sticky_categories_navigation_social_buttons' ) ) : ?>

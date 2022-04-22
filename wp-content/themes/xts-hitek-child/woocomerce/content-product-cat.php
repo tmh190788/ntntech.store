@@ -76,7 +76,7 @@ if ( 'subcat' === $design ) {
 <?php
   if (!get_field( 'stocklist_page', 'product_cat_' . $category->term_id )) :
 ?>
-xxxxx
+
 <div class="xts-col<?php echo esc_attr( $column_classes ); ?>" data-loop="<?php echo esc_attr( $woocommerce_loop ); ?>">
 	<div <?php wc_product_cat_class( $category_classes, $category ); ?>>
 		<?php

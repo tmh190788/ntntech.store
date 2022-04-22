@@ -12868,7 +12868,7 @@ button[name=save_account_details], button[name=save_address] {
   justify-content: space-between; }
 
 .product_meta + .xts-single-product-share {
-  margin-top: -5px; }
+  margin-top: 5px; }
 
 .wc-tabs-wrapper.xts-layout-accordion .xts-nav-wrapper {
   display: none; }

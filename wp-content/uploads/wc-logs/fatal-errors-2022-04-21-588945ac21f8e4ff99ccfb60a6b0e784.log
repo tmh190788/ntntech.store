@@ -1,0 +1,67 @@
+2022-04-21T07:23:00+00:00 CRITICAL Uncaught Error: Call to undefined function get_brands() in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php:164
+Stack trace:
+#0 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek-child\woocommerce\content-product-icons-alt.php(53): xts_grid_categories_template()
+#1 D:\xampp\htdocs\ntntech.store\wp-includes\template.php(772): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ntntech.store\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\xampp\\htdocs...', false)
+#3 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\templates\elementor\products.php(371): wc_get_template_part('content', 'product-icons-a...')
+#4 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\elementor\elements\products\class-products.php(548): xts_products_template(Array)
+#5 D:\xampp\htdocs\ntntech.store\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): XTS\Elementor\Pro in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php on line 164
+
+2022-04-21T07:23:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_brands() in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php:164
+Stack trace:
+#0 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek-child\woocommerce\content-product-icons-alt.php(53): xts_grid_categories_template()
+#1 D:\xampp\htdocs\ntntech.store\wp-includes\template.php(772): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ntntech.store\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\xampp\\htdocs...', false)
+#3 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\templates\elementor\products.php(371): wc_get_template_part('content', 'product-icons-a...')
+#4 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\elementor\elements\products\class-products.php(548): xts_products_template(Array)
+#5 D:\xampp\htdocs\ntntech.store\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): XTS\Elementor\Pro in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php on line 164
+
+2022-04-21T07:23:27+00:00 CRITICAL Uncaught Error: Call to undefined function get_brands() in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php:164
+Stack trace:
+#0 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek-child\woocommerce\content-product-icons-alt.php(53): xts_grid_categories_template()
+#1 D:\xampp\htdocs\ntntech.store\wp-includes\template.php(772): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ntntech.store\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\xampp\\htdocs...', false)
+#3 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\templates\elementor\products.php(371): wc_get_template_part('content', 'product-icons-a...')
+#4 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\elementor\elements\products\class-products.php(548): xts_products_template(Array)
+#5 D:\xampp\htdocs\ntntech.store\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): XTS\Elementor\Pro in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php on line 164
+
+2022-04-21T07:53:53+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php:176
+Stack trace:
+#0 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek-child\woocommerce\content-product-icons-alt.php(53): xts_grid_categories_template()
+#1 D:\xampp\htdocs\ntntech.store\wp-includes\template.php(772): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ntntech.store\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\xampp\\htdocs...', false)
+#3 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\woocommerce\content-product.php(61): wc_get_template_part('content', 'product-icons-a...')
+#4 D:\xampp\htdocs\ntntech.store\wp-includes\template.php(772): require('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\ntntech.store\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\xampp\\htdocs...', false)
+#6 D:\xampp\htdocs\ntntech in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php on line 176
+
+2022-04-21T07:54:51+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php:176
+Stack trace:
+#0 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek-child\woocommerce\content-product-icons-alt.php(53): xts_grid_categories_template()
+#1 D:\xampp\htdocs\ntntech.store\wp-includes\template.php(772): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ntntech.store\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\xampp\\htdocs...', false)
+#3 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\woocommerce\content-product.php(61): wc_get_template_part('content', 'product-icons-a...')
+#4 D:\xampp\htdocs\ntntech.store\wp-includes\template.php(772): require('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\ntntech.store\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\xampp\\htdocs...', false)
+#6 D:\xampp\htdocs\ntntech in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php on line 176
+
+2022-04-21T07:54:58+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php:176
+Stack trace:
+#0 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek-child\woocommerce\content-product-icons-alt.php(53): xts_grid_categories_template()
+#1 D:\xampp\htdocs\ntntech.store\wp-includes\template.php(772): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ntntech.store\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\xampp\\htdocs...', false)
+#3 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\woocommerce\content-product.php(61): wc_get_template_part('content', 'product-icons-a...')
+#4 D:\xampp\htdocs\ntntech.store\wp-includes\template.php(772): require('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\ntntech.store\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\xampp\\htdocs...', false)
+#6 D:\xampp\htdocs\ntntech in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php on line 176
+
+2022-04-21T07:56:04+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php:177
+Stack trace:
+#0 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek-child\woocommerce\content-product-icons-alt.php(53): xts_grid_categories_template()
+#1 D:\xampp\htdocs\ntntech.store\wp-includes\template.php(772): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ntntech.store\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\xampp\\htdocs...', false)
+#3 D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\woocommerce\content-product.php(61): wc_get_template_part('content', 'product-icons-a...')
+#4 D:\xampp\htdocs\ntntech.store\wp-includes\template.php(772): require('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\ntntech.store\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\xampp\\htdocs...', false)
+#6 D:\xampp\htdocs\ntntech in D:\xampp\htdocs\ntntech.store\wp-content\themes\xts-hitek\framework\integration\woocommerce\template-tags\loop-product.php on line 177
+
