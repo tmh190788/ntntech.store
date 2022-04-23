@@ -82,7 +82,7 @@ do_action( 'woocommerce_before_main_content' );
 ?>
 <form class="row search-stocklist">
 	<div class="col-lg-3 col-md-12">
-		<input type="text" name="keyword" placeholder="Search..." required/>
+		<input type="text" name="keyword" placeholder="" required/>
 	</div>
 	<div class="col-lg-3 col-md-12">
 		<select name="filter">
@@ -92,7 +92,7 @@ do_action( 'woocommerce_before_main_content' );
 		</select>
 	</div>
 	<div class="col-2">
-		<input type="submit" value="OK" />
+		<input type="submit" value="Search" />
 	</div>
 </form>
 
