@@ -31,13 +31,24 @@ function _additional_woo_query( $query ) {
             $keyword = isset($_GET['keyword']) ? $_GET['keyword'] : '';
             $filter = isset($_GET['filter']) ? $_GET['filter'] : null;
 
-            if (!empty($keyword) && !empty($filter)) {
+            if (!empty($keyword)) { //var_dump(123);
                 $myQuery[] = array(
-                    'key'	 	=> $filter,
+                   // 'key'	 	=> $filter,
                     'value'	  	=> $keyword,
                     'compare' 	=> 'LIKE',
+                    
                 );
-                $query->set( 'meta_query', $myQuery );
+
+                $myQuery[] = array('tax_query' => array(
+                    // 'relattion' => 'OR',
+                    array(
+                        'taxonomy' => 'product_brand',
+                        'compare' 	=> 'LIKE',
+                        'field' => 'name',
+                        'terms' => $keyword,
+                )));
+                
+                        $query->set( 'meta_query', $myQuery );
                 // if ($filter !== 'maker') {
                 //     $myQuery[] = array(
                 //         'key'	 	=> $filter,
@@ -173,3 +184,13 @@ function wpb_custom_new_menu() {
   register_nav_menu('header-categories',__( 'Header Categories' ));
 }
 add_action( 'init', 'wpb_custom_new_menu' );
+
+/**
+ * Add custom sorting options (asc/desc)
+ */
+add_filter( 'woocommerce_product_subcategories_args', 'custom_woocommerce_get_subcategories_ordering_args' );
+
+    function custom_woocommerce_get_subcategories_ordering_args( $args ) {
+      $args['orderby'] = 'id';
+      return $args;
+    }

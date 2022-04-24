@@ -31,9 +31,18 @@ $different_sizes_position = explode( ',', xts_get_opt( 'shop_different_sizes_pos
 $column_classes           = '';
 $category_classes         = '';
 
+// var_dump( $category);
+
+// function cmp($a, $b) {
+//     return strcmp($a->term_id, $b->term_id);
+// }
+// usort($category, "cmp");
+
 // Template_args.
 $template_args = array(
 	'category' => $category,
+	// 'orderby' => 'term_id',
+	// 'order' => 'ASC'
 );
 
 // Category classes.
@@ -53,7 +62,6 @@ if ( $animation && $animation_in_view ) {
 	$column_classes .= ' xts-animation-' . $animation;
 	$column_classes .= ' xts-animation-' . $animation_duration;
 }
-
 // Sub categories.
 if ( 'subcat' === $design ) {
 	$sub_categories = get_terms(
@@ -87,5 +95,6 @@ if ( 'subcat' === $design ) {
 	</div>
 </div>
 <?php
+	//var_dump($template_args);
   endif;
 ?>

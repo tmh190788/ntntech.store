@@ -1,0 +1,6 @@
+2022-04-24T08:32:24+00:00 CRITICAL Cannot redeclare cmp() (previously declared in /Users/thaiminhhai/Sites/ntntech.store/wp-content/themes/xts-hitek-child/woocommerce/content-product-cat.php:36) in /Users/thaiminhhai/Sites/ntntech.store/wp-content/themes/xts-hitek-child/woocommerce/content-product-cat.php on line 36
+
+2022-04-24T08:32:39+00:00 CRITICAL Cannot redeclare cmp() (previously declared in /Users/thaiminhhai/Sites/ntntech.store/wp-content/themes/xts-hitek-child/woocommerce/content-product-cat.php:36) in /Users/thaiminhhai/Sites/ntntech.store/wp-content/themes/xts-hitek-child/woocommerce/content-product-cat.php on line 36
+
+2022-04-24T08:32:51+00:00 CRITICAL Cannot redeclare cmp() (previously declared in /Users/thaiminhhai/Sites/ntntech.store/wp-content/themes/xts-hitek-child/woocommerce/content-product-cat.php:36) in /Users/thaiminhhai/Sites/ntntech.store/wp-content/themes/xts-hitek-child/woocommerce/content-product-cat.php on line 36
+
