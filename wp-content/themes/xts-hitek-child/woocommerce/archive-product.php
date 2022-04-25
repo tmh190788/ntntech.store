@@ -81,16 +81,16 @@ do_action( 'woocommerce_before_main_content' );
   if($is_stock_list) :
 ?>
 <form class="row search-stocklist">
-	<div class="col-lg-3 col-md-12">
-		<input type="text" name="keyword" placeholder="" required/>
+	<div class="col-lg-6 col-md-12">
+		<input type="text" name="keyword" placeholder="Model, Maker, Description,..." required/>
 	</div>
-	<div class="col-lg-3 col-md-12">
+	<!-- <div class="col-lg-3 col-md-12">
 		<select name="filter">
 			<option value="model">Model</option>
-			<!-- <option value="maker">Maker</option> -->
+			<option value="maker">Maker</option>
 			<option value="description">Description</option>
 		</select>
-	</div>
+	</div> -->
 	<div class="col-2">
 		<input type="submit" value="Search" />
 	</div>

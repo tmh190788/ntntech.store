@@ -67,9 +67,9 @@ if (!empty($terms_brand)) {
 		</div>
 	</div>
 	<div class="stocklist-info product_meta">
-		<div><span class="xts-label">Model: </span><a href="<?=$stock_list_url?>?keyword=<?= get_field('model') ?>&filter=model"><?= get_field('model') ?></a></div>
+		<div><span class="xts-label">Model: </span><a href="<?=$stock_list_url?>?keyword=<?= get_field('model') ?>"><?= get_field('model') ?></a></div>
 		<!-- <div><span class="xts-label">Maker: </span><a href="<?=$stock_list_url?>?keyword=<?=get_field('maker')?>&filter=maker"><?= get_field('maker') ?></a></div> -->
-		<div><span class="xts-label">Description: </span><a href="<?=$stock_list_url?>?keyword=<?=get_field('description')?>&filter=description"><?= get_field('description') ?></a></div>
+		<div><span class="xts-label">Description: </span><a href="<?=$stock_list_url?>?keyword=<?=get_field('description')?>"><?= get_field('description') ?></a></div>
 	</div>
 </div>
 

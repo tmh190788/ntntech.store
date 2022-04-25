@@ -27,7 +27,7 @@ function _additional_woo_query( $query ) {
         //var_dump($term);
         $stockListVal = get_term_meta( $term->term_id, $key = 'stocklist_page', true );
         if ($stockListVal == 1) {
-            $filters = isset($_GET['filters']) ? $_GET['filters'] : [];
+         //   $filters = isset($_GET['filters']) ? $_GET['filters'] : [];
             $keyword = isset($_GET['keyword']) ? $_GET['keyword'] : '';
             $filter = isset($_GET['filter']) ? $_GET['filter'] : null;
 
@@ -40,15 +40,16 @@ function _additional_woo_query( $query ) {
                 );
 
                 $myQuery[] = array('tax_query' => array(
-                    // 'relattion' => 'OR',
+                    'relattion' => 'OR',
                     array(
+                        'post_type' => 'product',
                         'taxonomy' => 'product_brand',
                         'compare' 	=> 'LIKE',
                         'field' => 'name',
                         'terms' => $keyword,
                 )));
                 
-                        $query->set( 'meta_query', $myQuery );
+                $query->set( 'meta_query', $myQuery );
                 // if ($filter !== 'maker') {
                 //     $myQuery[] = array(
                 //         'key'	 	=> $filter,

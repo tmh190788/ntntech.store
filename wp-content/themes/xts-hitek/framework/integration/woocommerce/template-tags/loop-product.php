@@ -173,9 +173,9 @@ if ( ! function_exists( 'xts_grid_categories_template' ) ) {
 					// ?keyword=bear&filter=description
       ?>
         <!-- <div class="stocklist-info">Maker: <a href="<?=$stock_list_url?>?keyword=<?= get_field('maker') ?>&filter=maker"><?= get_field('maker') ?></a></div> -->
-		<div class="stocklist-info">Model: <a href="<?=$stock_list_url?>?keyword=<?= get_field('model') ?>&filter=model"><?= get_field('model') ?></a></div>
+		<div class="stocklist-info">Model: <a href="<?=$stock_list_url?>?keyword=<?= get_field('model') ?>"><?= get_field('model') ?></a></div>
 		<div class="stocklist-info">Maker:  <a href="<?=$brand_link?>"><?= $brand_name ?></a></div>
-        <div class="stocklist-info">Description: <a href="<?=$stock_list_url?>?keyword=<?=get_field('description')?>&filter=description"><?=get_field('description')?></a></div>
+        <div class="stocklist-info">Description: <a href="<?=$stock_list_url?>?keyword=<?=get_field('description')?>"><?=get_field('description')?></a></div>
       <?php
         }
       ?>
