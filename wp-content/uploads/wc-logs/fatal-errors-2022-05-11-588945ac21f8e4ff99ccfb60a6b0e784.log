@@ -1,0 +1,34 @@
+2022-05-11T08:59:33+00:00 CRITICAL Uncaught Error: Call to a member function set() on null in /Users/thaiminhhai/Sites/ntntech.store/wp-content/themes/xts-hitek-child/functions.php:35
+Stack trace:
+#0 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-hook.php(307): _additional_woo_query(Object(WP_Query))
+#1 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-query.php(1804): do_action_ref_array('pre_get_posts', Array)
+#4 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-query.php(3542): WP_Query->get_posts()
+#5 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp.php(637): WP_Query->query(Array)
+#6 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp.php(760): WP->query_posts()
+#7 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/functions.php(1310): WP->main('')
+#8 /Users/thaiminhhai/Sites/ntnt in /Users/thaiminhhai/Sites/ntntech.store/wp-content/themes/xts-hitek-child/functions.php on line 35
+
+2022-05-11T09:02:22+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Query::set(), 1 passed in /Users/thaiminhhai/Sites/ntntech.store/wp-content/themes/xts-hitek-child/functions.php on line 54 and exactly 2 expected in /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-query.php:1772
+Stack trace:
+#0 /Users/thaiminhhai/Sites/ntntech.store/wp-content/themes/xts-hitek-child/functions.php(54): WP_Query->set(Array)
+#1 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-hook.php(307): _additional_woo_query(Object(WP_Query))
+#2 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#4 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-query.php(1804): do_action_ref_array('pre_get_posts', Array)
+#5 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-query.php(3542): WP_Query->get_posts()
+#6 /Users/thaiminhhai/Sites/ntntech.store/wp-includes in /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-query.php on line 1772
+
+2022-05-11T09:02:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Query::set(), 1 passed in /Users/thaiminhhai/Sites/ntntech.store/wp-content/themes/xts-hitek-child/functions.php on line 54 and exactly 2 expected in /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-query.php:1772
+Stack trace:
+#0 /Users/thaiminhhai/Sites/ntntech.store/wp-content/themes/xts-hitek-child/functions.php(54): WP_Query->set(Object(WP_Query))
+#1 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-hook.php(307): _additional_woo_query(Object(WP_Query))
+#2 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#4 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-query.php(1804): do_action_ref_array('pre_get_posts', Array)
+#5 /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-query.php(3542): WP_Query->get_posts()
+#6 /Users/thaiminhhai/Sites/ntntech.store/ in /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-query.php on line 1772
+
+2022-05-11T09:04:05+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/thaiminhhai/Sites/ntntech.store/wp-includes/class-wp-hook.php on line 300
+

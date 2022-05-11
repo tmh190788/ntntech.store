@@ -32,24 +32,41 @@ function _additional_woo_query( $query ) {
             $filter = isset($_GET['filter']) ? $_GET['filter'] : null;
 
             if (!empty($keyword)) { //var_dump(123);
-                $myQuery[] = array(
-                   // 'key'	 	=> $filter,
-                    'value'	  	=> $keyword,
-                    'compare' 	=> 'LIKE',
-                    
-                );
+                // $myQuery[] = array(
+                //     'meta_query' => array(
+                //     // 'key'	 	=> $filter,
+                //         'value'	  	=> $keyword,
+                //         'compare' 	=> 'LIKE',
+                        
+                //     ),
+                //     'tax_query' => array(
+                //         'relattion' => 'OR',
+                //         array(
+                //             'taxonomy' => 'product_brand',
+                //             'field' => 'slug',
+                //             'terms' => $keyword,
+                //         ),
+                //     )
+                // );
+               // $query->set( 'meta_query', $myQuery);
 
-                $myQuery[] = array('tax_query' => array(
+               $myQuery[] = array(
+                    'meta_query' => array(
+                    // 'key'	 	=> $filter,
+                        'value'	  	=> $keyword,
+                        'compare' 	=> 'LIKE',
+                ));               
+                $myQuery[] = array(
+                    'tax_query' => array(
                     'relattion' => 'OR',
                     array(
-                        'post_type' => 'product',
                         'taxonomy' => 'product_brand',
-                        'compare' 	=> 'LIKE',
-                        'field' => 'name',
+                        'field' => 'slug',
                         'terms' => $keyword,
-                )));
-                
-                $query->set( 'meta_query', $myQuery );
+                    ),
+                ));
+                $query->set( 'tax_query', $myQuery);
+
                 // if ($filter !== 'maker') {
                 //     $myQuery[] = array(
                 //         'key'	 	=> $filter,
