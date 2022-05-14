@@ -50,21 +50,28 @@ function _additional_woo_query( $query ) {
                 // );
                // $query->set( 'meta_query', $myQuery);
 
-               $myQuery[] = array(
-                    'meta_query' => array(
-                    // 'key'	 	=> $filter,
-                        'value'	  	=> $keyword,
-                        'compare' 	=> 'LIKE',
-                ));               
+            //    $myQuery[] = array(
+            //         'meta_query' => array(
+            //         // 'key'	 	=> $filter,
+            //             'value'	  	=> $keyword,
+            //             'compare' 	=> 'LIKE',
+            //     ));     
                 $myQuery[] = array(
+                    'post_type' => 'employee',
                     'tax_query' => array(
-                    'relattion' => 'OR',
-                    array(
-                        'taxonomy' => 'product_brand',
-                        'field' => 'slug',
+                        'taxonomy' => 'model',
+                        'field' => 'name',
                         'terms' => $keyword,
-                    ),
-                ));
+                ));               
+                // $myQuery[] = array(
+                //     'tax_query' => array(
+                //     'relattion' => 'OR',
+                //     array(
+                //         'taxonomy' => 'product_brand',
+                //         'field' => 'slug',
+                //         'terms' => $keyword,
+                //     ),
+                // ));
                 $query->set( 'tax_query', $myQuery);
 
                 // if ($filter !== 'maker') {
